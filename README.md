@@ -12,5 +12,7 @@ https://www.hackerrank.com/domains
 Reddit /r/dailyprogrammer
 https://www.reddit.com/r/dailyprogrammer
 
+TODO: add more
+
 
 
