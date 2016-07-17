@@ -6,5 +6,17 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million,
 #     find the sum of the even-valued terms.
 
-secuence = []
+secuence = [1,2,3]
+lastnumber  = 0
+fibsum = 6
+
+
+while (fibsum < 4000000):
+    lastnumber = secuence[-1]
+    nextitem = secuence[-1] + secuence[-2]
+    secuence.append(nextitem)
+    fibsum += nextitem
+
+print(fibsum)
+
 
