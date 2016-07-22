@@ -12,6 +12,10 @@ https://www.hackerrank.com/domains
 Reddit /r/dailyprogrammer
 https://www.reddit.com/r/dailyprogrammer
 
+codefights
+https://codefights.com/
+
+
 TODO: add more
 
 
