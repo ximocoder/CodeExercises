@@ -1,3 +1,5 @@
 https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/
 
 https://www.youtube.com/watch?v=Vf_-OkqbwPo
+
+https://learnxinyminutes.com/
