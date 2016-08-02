@@ -10,6 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            // http://www.forocoches.com/foro/showthread.php?p=235196945#post235196945
 
             System.Console.WriteLine("tonto quien lo lea");
             //    imprimir las edades de las personas cuyo nombre empiece por "P" 
