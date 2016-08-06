@@ -6,17 +6,20 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million,
 #     find the sum of the even-valued terms.
 
-secuence = [1,2,3]
-lastnumber  = 0
-fibsum = 6
+sum = 0
+num1 = 1
+num2 = 2
 
+while num1 < 4000000:
+    if num1 % 2 == 0:
+        sum += num1
+    num2 = num1 + num2
+    num1 = num2 - num1
 
-while (fibsum < 4000000):
-    lastnumber = secuence[-1]
-    nextitem = secuence[-1] + secuence[-2]
-    secuence.append(nextitem)
-    fibsum += nextitem
+print(sum)
 
-print(fibsum)
+#4613732
+#Congratulations, the answer you gave to problem 2 is correct.
+#You are the 475314th person to have solved this problem.
 
 
