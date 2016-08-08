@@ -4,7 +4,7 @@
 # What is the largest prime factor of the number 600851475143 ?
 
 x = True
-num = 13195
+num = 600851475143
 num2 = num
 n = num
 
@@ -13,7 +13,8 @@ for p in range(2, n+1):
         if p % i == 0:
             break
     else:
-        print (p)
+        if num % p == 0:
+            print (p)
 print ('Done')
 
 # while x:
