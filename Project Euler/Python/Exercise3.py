@@ -14,8 +14,10 @@ for p in range(2, n+1):
             break
     else:
         if num % p == 0:
-            print (p)
-print ('Done')
+            print(p)
+print('Done')
+
+# Answer: 6857
 
 # while x:
 #     num2 = num2 - 1
