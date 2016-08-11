@@ -19,7 +19,8 @@ while num < 100000000000:
         print(num)
         break
 
-#result> 232792560
+#TODO: improve SPEED! this solution is too slow....
+#result: 232792560
 #Congratulations, the answer you gave to problem 5 is correct.
 #You are the 319467th person to have solved this problem.
 
