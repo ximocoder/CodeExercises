@@ -77,13 +77,31 @@ for row in mt:
     print(' '.join(row))
 
 maxres = 0
+res = 1
 
 for i in range(len(mt)):
         for j in range(len(mt[i])):
             #print(matrixtext[i][j])
+            res = 1
             if i - 4 > 0 and j - 4 > 0:
                 for m in range(1, 4):
-                    res = mt[i][j] * res
+                    res *= int(mt[i-m][j-m])
+                    if res > maxres:
+                        maxres = res
+                        print(i)
+            if i - 4 > 0:
+                for m in range(1, 4):
+                    res *= int(mt[i-m][j])
+                    if res > maxres:
+                        maxres = res
+                        print(i)
+            if j - 4 > 0:
+                for m in range(1, 4):
+                    res *= int(mt[m][j-m])
+                    if res > maxres:
+                        maxres = res
+                        print(i)
+print(maxres)
 
 
 
