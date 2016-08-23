@@ -19,13 +19,26 @@
 #
 # What is the value of the first triangle number to have over five hundred
 # divisors?
+def factorsnum(num):
+    numfactors = 0
+    sum = 0
+
+    for x in range(1, num + 1):
+        if num % x == 0:
+            numfactors += 1
+            sum += x
+
+    return sum
+
 
 trianglenumber = 0
 sum = 0
 n = 11
 
-
 for x in range(1, n):
-    sum += x
+    print(factorsnum(x))
 
 print(sum)
+
+
+
