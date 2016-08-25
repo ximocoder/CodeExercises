@@ -30,15 +30,27 @@ def factorsnum(num):
 
     return sum
 
+def gettriangle(num):
+    sum = 0
+    for x in range(num, 1, -1):
+        sum += num
+    return sum
 
-trianglenumber = 0
-sum = 0
-n = 11
 
-for x in range(1, n):
-    print(factorsnum(x))
 
-print(sum)
+print(gettriangle(3))
+print(gettriangle(4))
+print(gettriangle(5))
+
+
+# trianglenumber = 0
+# sum = 0
+# n = 11
+#
+# for x in range(1, n):
+#     print(factorsnum(x))
+#
+# print(sum)
 
 
 
