@@ -32,16 +32,32 @@ def factorsnum(num):
 
 def gettriangle(num):
     sum = 0
-    for x in range(num, 1, -1):
-        sum += num
+    for x in range(num, -1, -1):
+        sum += x
     return sum
 
 
+def getdivisorsnumber(num):
+    totaldivisors = 0
+    for x in range(int(num / 2), 0, -1):
+        if num % x == 0:
+            totaldivisors += 1
+            #print(x)
+    return totaldivisors
 
-print(gettriangle(3))
-print(gettriangle(4))
-print(gettriangle(5))
+maxnum = 28
+# 6, 10, 15
+# print(gettriangle(3))
+# print(gettriangle(4))
+# print(gettriangle(5))
+# print(gettriangle(7))
+print(getdivisorsnumber(gettriangle(7)))
 
+# for x in range(1, maxnum):
+#     print(x)
+#     print(getdivisorsnumber(gettriangle(x)))
+
+print(getdivisorsnumber(gettriangle(27)))
 
 # trianglenumber = 0
 # sum = 0
