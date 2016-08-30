@@ -36,10 +36,16 @@ def gettriangle(num):
         sum += x
     return sum
 
-
 def getdivisorsnumber(num):
     totaldivisors = 0
-    for x in range(int(num / 2), 0, -1):
+    if num % 2 == 0:
+        totaldivisors += 1
+        num = int(num/2)
+    elif num % 3 == 0:
+        totaldivisors += 1
+        num = int(num/3)
+
+    for x in range(num, 0, -1):
         if num % x == 0:
             totaldivisors += 1
             #print(x)
@@ -57,7 +63,7 @@ print(getdivisorsnumber(gettriangle(7)))
 #     print(x)
 #     print(getdivisorsnumber(gettriangle(x)))
 
-print(getdivisorsnumber(gettriangle(27)))
+print(getdivisorsnumber(gettriangle(100)))
 
 # trianglenumber = 0
 # sum = 0

@@ -209,9 +209,13 @@ numbers = """37107287533902102798797998220837590246510135740250
             53503534226472524250874054075591789781264330331690"""
 
 sum = 0
-for i in numbers.split('\r\n'):
-    for j in i:
-        sum += float(j)
+splitnumbers = numbers.split('\n')
+for i in splitnumbers:
+        print(i)
+        sum += float(i.strip())
 
 print(sum)
 
+#5.537376230390877e+51
+#Congratulations, the answer you gave to problem 13 is correct.
+#You are the 154741st person to have solved this problem.
