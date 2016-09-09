@@ -12,3 +12,14 @@
 #    forty-two) contains 23 letters and 115 (one hundred and fifteen) contains
 #    20 letters. The use of "and" when writing out numbers is in compliance
 #    with British usage.
+
+words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten']
+tens = ['eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen']
+dec = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+hun = ['hundred']
+thou = ['thousand']
+
+print(words)
+
+for w in words:
+    print(w)
