@@ -21,5 +21,15 @@ thou = ['thousand']
 
 print(words)
 
+
+def sumwords(number):
+    res = 0
+    if number % 10 == 0:
+        res = len(words[9])
+    return res
+
 for w in words:
     print(w)
+
+print(str(sumwords(10)))
+
