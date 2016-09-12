@@ -24,12 +24,17 @@ print(words)
 
 def sumwords(number):
     res = 0
-    if number % 10 == 0:
+    if str(number).endswith("10"):
         res = len(words[9])
+    if str(number).endswith("100"):
+        res = len(hun[0])
     return res
 
 for w in words:
     print(w)
 
 print(str(sumwords(10)))
+print(str(sumwords(100)))
+
+
 
