@@ -27,14 +27,16 @@
 # >>> datetime.datetime.today().weekday()
 
 import datetime
+import monthdelta
 
 date = datetime.date(1901, 1, 1)
 sumsundays = 0
 
 while date.year < 2001:
-    date += datetime.timedelta(days=10)
+    date += datetime.timedelta(days=1)
     if date.weekday() == 6:
         sumsundays += 1
+        date = date + monthdelta.monthdelta(+1)
 
 print(sumsundays)
 
