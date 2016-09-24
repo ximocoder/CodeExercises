@@ -20,3 +20,7 @@
 #
 #    Visible links
 #    1. file:///dev/project/names.txt
+
+alphabet = ['A', 'B', 'C', 'D', 'E', 'F']
+
+sfile = "C:\\text.txt"
