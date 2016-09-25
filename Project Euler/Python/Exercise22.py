@@ -23,4 +23,6 @@
 
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F']
 
-sfile = "C:\\text.txt"
+sfile = "C:\\Users\\ximva\\Documents\\Code\\CodeExercises\\Project Euler\\Python\\p022_names.txt"
+
+print(sfile)
