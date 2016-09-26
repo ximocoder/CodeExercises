@@ -25,4 +25,9 @@ alphabet = ['A', 'B', 'C', 'D', 'E', 'F']
 
 sfile = "C:\\Users\\ximva\\Documents\\Code\\CodeExercises\\Project Euler\\Python\\p022_names.txt"
 
-print(sfile)
+f = open(sfile, 'r')
+
+for l in f:
+    print(l)
+
+print(f)
