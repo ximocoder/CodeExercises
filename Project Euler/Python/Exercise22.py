@@ -21,6 +21,11 @@
 #    Visible links
 #    1. file:///dev/project/names.txt
 
+def getposition(letter):
+    asciinumber = ord(letter)
+    return asciinumber - 1
+
+
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F']
 
 sfile = "C:\\Users\\ximva\\Documents\\Code\\CodeExercises\\Project Euler\\Python\\p022_names.txt"
