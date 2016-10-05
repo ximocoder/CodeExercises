@@ -13,5 +13,7 @@
 #    4, 5, 6, 7, 8 and 9?
 
 
-digits = 0123456789
+digits = "0123456789"
 
+for i in digits:
+   print(i)
