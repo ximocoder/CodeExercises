@@ -13,13 +13,6 @@
 #    4, 5, 6, 7, 8 and 9?
 import itertools as it
 
-digits = "0123456789"
-
-for i in digits:
-   print(i)
-
-
-
 gen = it.permutations(range(0, 10))
 
 count = 0
