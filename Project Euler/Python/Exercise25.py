@@ -24,3 +24,14 @@
 #    The 12th term, F[12], is the first term to contain three digits.
 #
 #    What is the first term in the Fibonacci sequence to contain 1000 digits?
+
+
+sum = 0
+num1 = 1
+num2 = 2
+
+while len(str(num1)) < 1000:
+    num2 = num1 + num2
+    num1 = num2 - num1
+print(num1)
+
