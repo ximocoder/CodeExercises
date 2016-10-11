@@ -26,12 +26,19 @@
 #    What is the first term in the Fibonacci sequence to contain 1000 digits?
 
 
-sum = 0
+index = 2
 num1 = 1
 num2 = 2
 
 while len(str(num1)) < 1000:
+    index += 1
     num2 = num1 + num2
     num1 = num2 - num1
 print(num1)
+print(index)
+#
+# Congratulations, the answer you gave to problem 25 is correct.
+#
+# You are the 109417th person to have solved this problem.
+
 
