@@ -22,4 +22,9 @@
 #    Find the sum of all the positive integers which cannot be written as the
 #    sum of two abundant numbers.
 
+number = 28
+
+sumnumber = 1 + 2 + 4 + 7 + 14
+
+print(sumnumber)
 
