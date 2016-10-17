@@ -22,15 +22,17 @@
 #    Find the value of d < 1000 for which ^1/[d] contains the longest recurring
 #    cycle in its decimal fraction part.
 
+
 res = 0
-maxnum = 1
+maxnumber = 1
 inum = 0
 for i in range(1, 1000):
     res = 1/i
-    if len(str(res)) > maxnum:
-        maxnum = res
+    if len(str(res)) > maxnumber:
+        maxnumber = res
         inum = i
 
 
-print(maxnum)
+print(maxnumber)
 print(inum)
+
