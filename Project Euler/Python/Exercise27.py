@@ -30,4 +30,6 @@ n = 40
 
 res = n ** 2 + n + 41
 
+print (res / 41)
+
 print(res)
