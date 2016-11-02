@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{78C9907C-C22D-4F8D-B13A-49F213FF1631}") = "rust_helloworld", "rust_helloworld.rsproj", "{93ECF45A-E636-45D1-8C38-544EA92B3BDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|default = Debug|default
+		Release|default = Release|default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93ECF45A-E636-45D1-8C38-544EA92B3BDF}.Debug|default.ActiveCfg = Debug|default
+		{93ECF45A-E636-45D1-8C38-544EA92B3BDF}.Debug|default.Build.0 = Debug|default
+		{93ECF45A-E636-45D1-8C38-544EA92B3BDF}.Release|default.ActiveCfg = Release|default
+		{93ECF45A-E636-45D1-8C38-544EA92B3BDF}.Release|default.Build.0 = Release|default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

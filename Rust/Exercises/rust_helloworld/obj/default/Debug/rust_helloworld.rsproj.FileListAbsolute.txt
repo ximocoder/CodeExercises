@@ -1,0 +1,5 @@
+D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.rsprojResolveAssemblyReference.cache
+D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\target\Debug\rust_helloworld.exe
+D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\target\Debug\rust_helloworld.pdb
+D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.exe
+D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.pdb
