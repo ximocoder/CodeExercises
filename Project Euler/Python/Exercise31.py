@@ -11,5 +11,6 @@
 #    It is possible to make -L-2 in the following way:
 #
 #      1 * -L-1 + 1 * 50p + 2 * 20p + 1 * 5p + 1 * 2p + 3 * 1p
-# 
+#
 #    How many different ways can -L-2 be made using any number of coins?
+
