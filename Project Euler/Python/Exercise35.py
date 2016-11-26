@@ -10,4 +10,8 @@
 #
 #   How many circular primes are there below one million?
 
+number = 197
+
+million = 1000000
+
    
