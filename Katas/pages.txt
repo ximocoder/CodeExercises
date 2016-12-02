@@ -1,1 +1,5 @@
 https://hackhands.com/dont-code-katas/
+https://technologyconversations.com/2013/12/29/learning-a-new-programming-language-through-katas-tdd-and-cyberdojo/
+
+mars rover kata:
+https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/
