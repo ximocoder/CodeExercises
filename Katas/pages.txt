@@ -1,3 +1,4 @@
+http://www.codekatas.org
 https://hackhands.com/dont-code-katas/
 https://technologyconversations.com/2013/12/29/learning-a-new-programming-language-through-katas-tdd-and-cyberdojo/
 
