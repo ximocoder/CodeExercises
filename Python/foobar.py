@@ -1,10 +1,12 @@
+# python foobar implementation.
+
 for num in range(1,101):
     if num % 5 == 0 and num % 3 == 0:
-        msg = "foobar"
+        print("foobar")
     elif num % 3 == 0:
-        msg = "foo"
+        print("foo")
     elif num % 5 == 0:
-        msg = "bar"
+        print("bar")
     else:
-        msg = str(num)
-    print(msg)
+        print(str(num))
+
