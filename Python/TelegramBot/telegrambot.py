@@ -1,4 +1,6 @@
 # telegram bot
+# para autocontestar a ciertos usuarios
+# ximo
 from telegram.ext import Updater, CommandHandler, Filters, MessageHandler, ConversationHandler
 
 def start(bot, update):
