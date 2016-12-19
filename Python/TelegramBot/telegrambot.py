@@ -44,11 +44,6 @@ updater.dispatcher.add_handler(CommandHandler('hello', hello))
 updater.dispatcher.add_handler(CommandHandler('javi', javi))
 updater.dispatcher.add_handler(CommandHandler('angel', angel))
 updater.dispatcher.add_handler(MessageHandler(Filters.all, contesta))
-updater.dispatcher.add_handler(MessageHandler(Filters.text, contesta))
-
-#updater.dispatcher.add_handler(ConversationHandler(Filters.all, contesta2))
-
-
 
 updater.start_polling()
 updater.idle()
