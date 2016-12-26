@@ -31,11 +31,6 @@ def contesta(bot, update):
     if update.message.from_user.username == "":
         update.message.reply_text('Ximo, eres el más grande!')
 
-def contesta2(bot, update):
-    if update.message.from_user.username == "AngeluKing":
-        update.message.reply_text('Hijo de puta!')
-    if update.message.from_user.username == "":
-        update.message.reply_text('Ximo, eres el más grande!')
 
 updater = Updater('')
 
