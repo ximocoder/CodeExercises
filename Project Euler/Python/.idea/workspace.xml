@@ -11,7 +11,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< .merge_file_a01868
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+=======
+>>>>>>> .merge_file_a00244
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -21,101 +24,181 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise27.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise27.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise12.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise12.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise23.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise23.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise14.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise24.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise24.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise15.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise15.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise28.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise28.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise8.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercise8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise29.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise29.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise16.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise16.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise31.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise31.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise 17.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise 17.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise32.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise32.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise18.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise18.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise33.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise33.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise19.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise19.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="Exercise34.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Exercise34.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+=======
+      <file leaf-file-name="Exercise27.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise27.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< .merge_file_a01868
       <file leaf-file-name="p022_names.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/p022_names.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="Exercise13.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exercise13.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3570">
+              <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
+>>>>>>> .merge_file_a00244
               <folding />
             </state>
           </provider>
@@ -140,17 +223,24 @@
         <option value="$PROJECT_DIR$/Exercise5.py" />
         <option value="$PROJECT_DIR$/Exercise6.py" />
         <option value="$PROJECT_DIR$/Exercise7.py" />
+<<<<<<< .merge_file_a01868
         <option value="$PROJECT_DIR$/Exercise8.py" />
+=======
+>>>>>>> .merge_file_a00244
         <option value="$PROJECT_DIR$/Exercise9.py" />
         <option value="$PROJECT_DIR$/Exercise10.py" />
         <option value="$PROJECT_DIR$/Exercise12.py" />
         <option value="$PROJECT_DIR$/Exercise13.py" />
         <option value="$PROJECT_DIR$/Exercise14.py" />
+<<<<<<< .merge_file_a01868
         <option value="$PROJECT_DIR$/Exercise15.py" />
+=======
+>>>>>>> .merge_file_a00244
         <option value="$PROJECT_DIR$/Exercise16.py" />
         <option value="$PROJECT_DIR$/Exercise 17.py" />
         <option value="$PROJECT_DIR$/Exercise19.py" />
         <option value="$PROJECT_DIR$/Exercise27.py" />
+<<<<<<< .merge_file_a01868
         <option value="$PROJECT_DIR$/Exercise28.py" />
         <option value="$PROJECT_DIR$/Exercise29.yp.py" />
         <option value="$PROJECT_DIR$/Exercise29.py" />
@@ -158,14 +248,24 @@
         <option value="$PROJECT_DIR$/Exercise32.py" />
         <option value="$PROJECT_DIR$/Exercise33.py" />
         <option value="$PROJECT_DIR$/Exercise34.py" />
+=======
+        <option value="$PROJECT_DIR$/Exercise15.py" />
+        <option value="$PROJECT_DIR$/Exercise8.py" />
+>>>>>>> .merge_file_a00244
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< .merge_file_a01868
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1167" />
+>>>>>>> .merge_file_a00244
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,11 +317,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< .merge_file_a01868
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python.Exercise28">
     <configuration default="false" name="Exercise13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Python.Exercise27">
+    <configuration default="false" name="Exercise10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> .merge_file_a00244
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -233,12 +341,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
+<<<<<<< .merge_file_a01868
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise13.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise10.py" />
+>>>>>>> .merge_file_a00244
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< .merge_file_a01868
     <configuration default="false" name="Exercise14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Exercise13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> .merge_file_a00244
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,12 +366,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
+<<<<<<< .merge_file_a01868
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise14.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise13.py" />
+>>>>>>> .merge_file_a00244
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< .merge_file_a01868
     <configuration default="false" name="Exercise 17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Exercise14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> .merge_file_a00244
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -267,12 +391,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
+<<<<<<< .merge_file_a01868
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise 17.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise14.py" />
+>>>>>>> .merge_file_a00244
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< .merge_file_a01868
     <configuration default="false" name="Exercise27" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Exercise 17" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> .merge_file_a00244
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -284,12 +416,20 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
+<<<<<<< .merge_file_a01868
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise27.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise 17.py" />
+>>>>>>> .merge_file_a00244
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< .merge_file_a01868
     <configuration default="false" name="Exercise28" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="Exercise27" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> .merge_file_a00244
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -301,7 +441,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
+<<<<<<< .merge_file_a01868
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise28.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercise27.py" />
+>>>>>>> .merge_file_a00244
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -441,6 +585,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< .merge_file_a01868
       <item index="0" class="java.lang.String" itemvalue="Python.Exercise13" />
       <item index="1" class="java.lang.String" itemvalue="Python.Exercise14" />
       <item index="2" class="java.lang.String" itemvalue="Python.Exercise 17" />
@@ -454,6 +599,21 @@
         <item index="2" class="java.lang.String" itemvalue="Python.Exercise 17" />
         <item index="3" class="java.lang.String" itemvalue="Python.Exercise14" />
         <item index="4" class="java.lang.String" itemvalue="Python.Exercise13" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Python.Exercise10" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Exercise13" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Exercise14" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Exercise 17" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Exercise27" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Exercise27" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Exercise 17" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Exercise14" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Exercise13" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Exercise10" />
+>>>>>>> .merge_file_a00244
       </list>
     </recent_temporary>
   </component>
@@ -474,6 +634,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< .merge_file_a01868
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
@@ -482,6 +643,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28118393" sideWeight="0.5277778" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-7" y="0" width="1932" height="1167" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09446764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28098392" sideWeight="0.5276618" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> .merge_file_a00244
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -489,7 +660,11 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< .merge_file_a01868
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28388473" sideWeight="0.4722222" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28098392" sideWeight="0.4723382" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> .merge_file_a00244
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -554,6 +729,75 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< .merge_file_a01868
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> .merge_file_a00244
     <entry file="file://$PROJECT_DIR$/Exercise3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -770,6 +1014,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -777,6 +1022,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> .merge_file_a00244
     <entry file="file://$PROJECT_DIR$/Exercise9.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -795,6 +1042,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+<<<<<<< .merge_file_a01868
+=======
+          <folding />
+>>>>>>> .merge_file_a00244
         </state>
       </provider>
     </entry>
@@ -802,6 +1053,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+<<<<<<< .merge_file_a01868
         </state>
       </provider>
     </entry>
@@ -809,6 +1061,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+          <folding />
+>>>>>>> .merge_file_a00244
         </state>
       </provider>
     </entry>
@@ -816,6 +1071,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+<<<<<<< .merge_file_a01868
+=======
+          <folding />
+>>>>>>> .merge_file_a00244
         </state>
       </provider>
     </entry>
@@ -842,6 +1101,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise18.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -878,10 +1138,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise28.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -899,6 +1166,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/p022_names.txt">
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise18.py">
+>>>>>>> .merge_file_a00244
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -906,6 +1176,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise31.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -918,22 +1189,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+>>>>>>> .merge_file_a00244
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise33.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+>>>>>>> .merge_file_a00244
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< .merge_file_a01868
     <entry file="file://$PROJECT_DIR$/Exercise34.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+=======
+    <entry file="file://$PROJECT_DIR$/Exercise8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+>>>>>>> .merge_file_a00244
           <folding />
         </state>
       </provider>
