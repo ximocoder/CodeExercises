@@ -10,9 +10,13 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< HEAD
 <<<<<<< .merge_file_a14224
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 (C:\Users\ximva\AppData\Local\Programs\Python\Python35-32\python.exe)" project-jdk-type="Python SDK" />
 =======
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 (C:\Users\Ximo\AppData\Local\Programs\Python\Python35-32\python.exe)" project-jdk-type="Python SDK" />
 >>>>>>> .merge_file_a06716
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 (C:\Users\Ximo\AppData\Local\Programs\Python\Python35-32\python.exe)" project-jdk-type="Python SDK" />
+>>>>>>> e3c4615f1ca0156bfcc50fdcbe8e3798b25c421f
 </project>

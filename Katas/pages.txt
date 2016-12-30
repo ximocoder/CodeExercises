@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_a05732
 https://hackhands.com/dont-code-katas/
 =======
+=======
+>>>>>>> e3c4615f1ca0156bfcc50fdcbe8e3798b25c421f
 http://www.codekatas.org
 https://hackhands.com/dont-code-katas/
 https://technologyconversations.com/2013/12/29/learning-a-new-programming-language-through-katas-tdd-and-cyberdojo/
 
 mars rover kata:
 https://technologyconversations.com/2014/10/17/java-tutorial-through-katas-mars-rover/
+<<<<<<< HEAD
 >>>>>>> .merge_file_a04692
+=======
+>>>>>>> e3c4615f1ca0156bfcc50fdcbe8e3798b25c421f
