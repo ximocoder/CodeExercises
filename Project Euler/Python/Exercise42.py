@@ -1,9 +1,9 @@
 
 
-Problem 42
-==========
-
-
+#Problem 42
+#==========
+#
+#
    The n^th term of the sequence of triangle numbers is given by, t[n] =
    1/2n(n+1); so the first ten triangle numbers are:
 
