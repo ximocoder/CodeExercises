@@ -7,6 +7,8 @@
 use std::io;
 use std::io::prelude::*;
 
+//https://www.rust-lang.org/en-US/install.html
+//https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2017-rc
 
   fn pause() {
     let mut stdin = io::stdin();
@@ -32,6 +34,10 @@ fn main() {
     // Print text to the console
     println!("Hello World!");
     println!("test");
+    if (true)
+    {
+      println!("testif");
+    }
      // Special formatting can be specified after a `:`.
     println!("{} of {:b} people know binary, the other half don't", _unused_variable, 2);
     pause();
