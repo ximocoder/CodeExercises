@@ -1,3 +1,6 @@
+#webapi 
+#http://blog.luisrei.com/articles/flaskrest.html
+
 from flask import Flask, url_for
 app = Flask(__name__)
 
