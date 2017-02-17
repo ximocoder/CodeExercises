@@ -1,0 +1,2 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		No Rust installation detected. You can download official Rust installer from https://www.rust-lang.org/downloads.html	rust_helloworld	C:\Program Files (x86)\MSBuild\VisualRust\VisualRust.Rust.targets	53	
