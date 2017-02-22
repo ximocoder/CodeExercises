@@ -1,5 +1,3 @@
-
-
 #Problem 42
 #==========
 #
@@ -25,3 +23,5 @@
 #   Visible links
 #   1. file:///dev/project/words.txt
 
+wordsfilepath = "p042_words.txt"
+file = open(wordsfilepath,”r”) 
