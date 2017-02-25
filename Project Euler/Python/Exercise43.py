@@ -1,4 +1,3 @@
-
 #Problem 43
 #==========
 #
@@ -19,3 +18,11 @@
 #     * d[8]d[9]d[10]=289 is divisible by 17
 #
 #   Find the sum of all 0 to 9 pandigital numbers with this property.
+
+406
+063
+635
+357
+572
+728
+289
