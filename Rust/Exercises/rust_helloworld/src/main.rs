@@ -33,7 +33,7 @@ fn main() {
 
     // Print text to the console
     println!("Hello World!");
-    println!("test");
+
     if (true)
     {
       println!("testif");

@@ -3,3 +3,7 @@ D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\target\Debug\rust_helloworl
 D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.exe
 D:\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.pdb
 C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.rsprojResolveAssemblyReference.cache
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_helloworld\target\Debug\rust_helloworld.exe
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_helloworld\target\Debug\rust_helloworld.pdb
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.exe
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_helloworld\obj\default\Debug\rust_helloworld.pdb
