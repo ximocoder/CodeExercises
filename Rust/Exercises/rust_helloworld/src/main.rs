@@ -31,10 +31,12 @@ fn main() {
 
     let noisy_unused_variable = 2u32;
 
-    let test = "test string";
+    let x = true;
+    if (x)
+        let test = "test string";
 
     // Print text to the console
-    println!("Hello World!" + test);
+    println!("Hello World! {}",test);
 
     if (true)
     {
