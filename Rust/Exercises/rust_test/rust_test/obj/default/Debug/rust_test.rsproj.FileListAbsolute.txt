@@ -1,0 +1,4 @@
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_test\rust_test\target\Debug\rust_test.exe
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_test\rust_test\target\Debug\rust_test.pdb
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_test\rust_test\obj\default\Debug\rust_test.exe
+C:\Users\ximva\Documents\Code\CodeExercises\Rust\Exercises\rust_test\rust_test\obj\default\Debug\rust_test.pdb
