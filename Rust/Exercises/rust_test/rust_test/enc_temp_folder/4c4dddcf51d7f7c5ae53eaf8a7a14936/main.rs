@@ -46,8 +46,7 @@ fn main() {
 	println!("{} is {}", "the answer", 43);
 
 	// // {:?} will conveniently print any type
-	println!("what is this thing: {:?}", monster_size);
-    println!("what is this thing 2: {:?}", MONSTER_FACTOR);
+	println!("what is this thing: {:?}", MONSTER_FACTOR);
 
     pause();
 }
