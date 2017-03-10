@@ -25,7 +25,7 @@ fn main() {
 	while count < 10 {
 		println!("{}, count: {}", hi, count);
 		count += 1;
-	}
+
 
 	/*
 	 * Although Rust can almost always infer the types of local variables,
@@ -72,5 +72,12 @@ fn main() {
     // Use underscores to improve readability!
     println!("One million is written as {}", 1_000_000u32);
 
-        pause();
+    
+    // Use underscores to improve readability!
+    println!("One billion is written as {}", 1_000_000_000u32);
+
+    pause();
+    pause();
+
+        	}
 }
