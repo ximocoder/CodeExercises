@@ -21,7 +21,8 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Javanal++");
+            //MessageBox.Show("@burlao me come el nabo");
+            this.label1.Text = "@burlao me come el nabo";
         }
     }
 }
