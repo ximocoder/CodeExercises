@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://blog.codinghorror.com/the-ultimate-code-kata/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>The Ultimate Code Kata</title>
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="sl0m9SU_4V0JcvjWlOX4dUFBR6VS2P4tlxjJMo0gphU">
+<link rel="shortcut icon" href="https://blog.codinghorror.com/assets/images/favicon.ico?v=8a9fd6fc0a">
+<link rel="apple-touch-icon" href="./The Ultimate Code Kata_files/codinghorror-app-icon.png">
+<link rel="stylesheet" type="text/css" href="./The Ultimate Code Kata_files/screen.css">
+<link rel="stylesheet" type="text/css" href="./The Ultimate Code Kata_files/css">
+<link rel="alternate" type="application/rss+xml" title="Coding Horror" href="http://feeds.feedburner.com/codinghorror">
+<script async="" src="https://cse.google.com/adsense/search/async-ads.js"></script><script src="https://clc.stackoverflow.com/j/p?d=hireme" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./The Ultimate Code Kata_files/cse.js.descarga"></script><script src="./The Ultimate Code Kata_files/jquery-2.2.3.min.js.descarga" async=""></script>
+<script src="./The Ultimate Code Kata_files/video-resize.js.descarga" async=""></script>
+<style type="text/css">
+:root div[style="margin-bottom:10px"],
+:root .welovecodinghorror,
+:root #hireme
+{ display: none !important; }</style><script type="text/javascript" async="" src="./The Ultimate Code Kata_files/embed.js.descarga"></script><script src="./The Ultimate Code Kata_files/jsapi" type="text/javascript"></script><link type="text/css" href="./The Ultimate Code Kata_files/default+en.css" rel="stylesheet"><link type="text/css" href="./The Ultimate Code Kata_files/default.css" rel="stylesheet"><script type="text/javascript" src="./The Ultimate Code Kata_files/default+en.I.js.descarga"></script><style type="text/css">
+.gsc-control-cse {
+font-family: Arial, sans-serif;
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-control-cse .gsc-table-result {
+font-family: Arial, sans-serif;
+}
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+border-color: #D9D9D9;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+border-color: #666666;
+background-color: #CECECE;
+background-image: none;
+filter: none;
+}
+.gsc-tabHeader.gsc-tabhInactive {
+border-color: #E9E9E9;
+background-color: #E9E9E9;
+}
+.gsc-tabHeader.gsc-tabhActive {
+border-color: #FF9900;
+border-bottom-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-tabsArea {
+border-color: #FF9900;
+}
+.gsc-webResult.gsc-result,
+.gsc-results .gsc-imageResult {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gsc-webResult.gsc-result:hover,
+.gsc-imageResult:hover {
+border-color: #FFFFFF;
+background-color: #FFFFFF;
+}
+.gs-webResult.gs-result a.gs-title:link,
+.gs-webResult.gs-result a.gs-title:link b,
+.gs-imageResult a.gs-title:link,
+.gs-imageResult a.gs-title:link b {
+color: #0000CC;
+}
+.gs-webResult.gs-result a.gs-title:visited,
+.gs-webResult.gs-result a.gs-title:visited b,
+.gs-imageResult a.gs-title:visited,
+.gs-imageResult a.gs-title:visited b {
+color: #0000CC;
+}
+.gs-webResult.gs-result a.gs-title:hover,
+.gs-webResult.gs-result a.gs-title:hover b,
+.gs-imageResult a.gs-title:hover,
+.gs-imageResult a.gs-title:hover b {
+color: #0000CC;
+}
+.gs-webResult.gs-result a.gs-title:active,
+.gs-webResult.gs-result a.gs-title:active b,
+.gs-imageResult a.gs-title:active,
+.gs-imageResult a.gs-title:active b {
+color: #0000CC;
+}
+.gsc-cursor-page {
+color: #0000CC;
+}
+a.gsc-trailing-more-results:link {
+color: #0000CC;
+}
+.gs-webResult .gs-snippet,
+.gs-imageResult .gs-snippet,
+.gs-fileFormatType {
+color: #000000;
+}
+.gs-webResult div.gs-visibleUrl,
+.gs-imageResult div.gs-visibleUrl {
+color: #008000;
+}
+.gs-webResult div.gs-visibleUrl-short {
+color: #008000;
+}
+.gs-webResult div.gs-visibleUrl-short {
+display: none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+display: block;
+}
+.gs-promotion div.gs-visibleUrl-short {
+display: none;
+}
+.gs-promotion div.gs-visibleUrl-long {
+display: block;
+}
+.gsc-cursor-box {
+border-color: #FFFFFF;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+border-color: #E9E9E9;
+background-color: #FFFFFF;
+color: #0000CC;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+border-color: #FF9900;
+background-color: #FFFFFF;
+color: #0000CC;
+}
+.gsc-webResult.gsc-result.gsc-promotion {
+border-color: #336699;
+background-color: #FFFFFF;
+}
+.gsc-completion-title {
+color: #0000CC;
+}
+.gsc-completion-snippet {
+color: #000000;
+}
+.gs-promotion a.gs-title:link,
+.gs-promotion a.gs-title:link *,
+.gs-promotion .gs-snippet a:link {
+color: #0000CC;
+}
+.gs-promotion a.gs-title:visited,
+.gs-promotion a.gs-title:visited *,
+.gs-promotion .gs-snippet a:visited {
+color: #0000CC;
+}
+.gs-promotion a.gs-title:hover,
+.gs-promotion a.gs-title:hover *,
+.gs-promotion .gs-snippet a:hover {
+color: #0000CC;
+}
+.gs-promotion a.gs-title:active,
+.gs-promotion a.gs-title:active *,
+.gs-promotion .gs-snippet a:active {
+color: #0000CC;
+}
+.gs-promotion .gs-snippet,
+.gs-promotion .gs-title .gs-promotion-title-right,
+.gs-promotion .gs-title .gs-promotion-title-right * {
+color: #000000;
+}
+.gs-promotion .gs-visibleUrl,
+.gs-promotion .gs-visibleUrl-short {
+color: #008000;
+}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gscsep_a{display:none}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gsfe_a{border:1px solid #b9b9b9;border-top-color:#a0a0a0;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.1);}.gsfe_b{border:1px solid #4d90fe;outline:none;box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-moz-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 1px 2px rgba(0,0,0,0.3);}.gssb_a{padding:0 9px}.gsib_a{padding-right:8px;padding-left:8px}.gsst_a{padding-top:3px}.gssb_e{border:0}.gssb_l{margin:5px 0}#gsc-i-id1::-webkit-input-placeholder{font-size:14px}#gsc-i-id1:-moz-placeholder{font-size:14px}#gsc-i-id1::-moz-placeholder{font-size:14px}#gsc-i-id1:-ms-input-placeholder{font-size:14px}#gsc-i-id1:focus::-webkit-input-placeholder{color:transparent}#gsc-i-id1:focus:-moz-placeholder{color:transparent}#gsc-i-id1:focus::-moz-placeholder{color:transparent}#gsc-i-id1:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><style type="text/css">
+:root *[li2r1v4][hidden] { display: none !important; }</style></head>
+<body class="post-template"><div id="StayFocusd-infobar" style="display: none; top: 4600px;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">ocultar siempre</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">ocultar ahora</a>
+    </span>
+</div>
+<header class="site-head">
+<div class="site-head-content">
+<a class="blog-logo" href="https://blog.codinghorror.com/"><img src="./The Ultimate Code Kata_files/codinghorror-app-icon.png" alt="Coding Horror Logo" width="158" height="158"></a>
+<h1 class="blog-title"><a href="https://blog.codinghorror.com/">Coding Horror</a></h1>
+<h2 class="blog-description">programming and human factors</h2>
+<div class="site-search">
+<script>
+                  (function() {
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://www.google.com/cse/cse.js?cx=016956275695630057531:lqveu9tah7y';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                  })();
+                </script>
+<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" id="gs_id50" class="gstl_50 " style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" id="gsc-i-id1" dir="ltr" spellcheck="false" placeholder="Custom Search" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; outline: none; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;"><span class="gscb_a" id="gs_cb50">×</span></a></div></td></tr></tbody></table></div><input type="hidden" name="bgresponse" id="bgresponse"></td><td class="gsc-search-button"><input type="image" src="./The Ultimate Code Kata_files/search_box_icon.png" class="gsc-search-button gsc-search-button-v2" title="search"></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table><table cellspacing="0" cellpadding="0" class="gsc-branding"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img src="./The Ultimate Code Kata_files/googlelogo_grey_46x15dp.png" class="gsc-branding-img" srcset="https://www.google.com/cse/static/images/2x/googlelogo_grey_46x15dp.png 2x"></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div class="gsc-results-close-btn" tabindex="0"></div><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div><div class="gsc-tabsAreaInvisible"></div><div class="gsc-above-wrapper-area-invisible"><table cellspacing="0" cellpadding="0" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table cellspacing="0" cellpadding="0" class="gsc-resultsHeader"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div class="gsc-result-selector gsc-one-result" title="show one result">&nbsp;</div><div class="gsc-result-selector gsc-more-results" title="show more results">&nbsp;</div><div class="gsc-result-selector gsc-all-results" title="show all results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div class="gsc-modal-background-image" tabindex="0"></div></div></div></div>
+</div>
+</div>
+</header>
+<div class="wrap clearfix">
+<div class="clearfix"></div>
+<main class="content" role="main">
+<article class="post">
+<span class="post-meta"><time datetime="2008-06-22">22 Jun 2008</time> </span>
+<h1 class="post-title">The Ultimate Code Kata</h1>
+<section class="post-content">
+<p>
+As I was paging through Steve Yegge's <a href="http://steve.yegge.googlepages.com/">voluminous</a> <a href="http://steve-yegge.blogspot.com/">body</a> of work recently, I was struck by a 2005 entry on <a href="http://steve.yegge.googlepages.com/practicing-programming">practicing programming</a>:
+</p><p>
+</p><blockquote>
+<b>Contrary to what you might believe, merely doing your job every day doesn't qualify as real practice.</b> Going to meetings isn't practicing your people skills, and replying to mail isn't practicing your typing. You have to set aside some time once in a while and do focused practice in order to get better at something.
+<p>
+I know a lot of great engineers -- that's one of the best perks of working at Amazon -- and if you watch them closely, you'll see that they practice constantly. As good as they are, they still practice. They have all sorts of ways of doing it, and this essay will cover a few of them.
+</p><p>
+The great engineers I know are as good as they are <i>because</i> they practice all the time. People in great physical shape only get that way by working out regularly, and they need to keep it up, or they get out of shape. The same goes for programming and engineering.
+</p><p></p></blockquote>
+<p>
+It's an important distinction. I may drive to work every day, but I'm far from a professional driver. Similarly, programming every day may not be enough to make you a professional programmer. So what <i>can</i> turn someone into a professional driver or programmer? What do you do to practice?
+</p><p>
+The answer lies in the Scientific American article <a href="http://www.sciam.com/article.cfm?id=the-expert-mind&amp;print=true">The Expert Mind</a>:
+</p><p>
+</p><blockquote>
+Ericsson argues that <b>what matters is not experience per se but "effortful study," which entails continually tackling challenges that lie just beyond one's competence.</b> That is why it is possible for enthusiasts to spend tens of thousands of hours playing chess or golf or a musical instrument without ever advancing beyond the amateur level and why a properly trained student can overtake them in a relatively short time. It is interesting to note that time spent playing chess, even in tournaments, appears to contribute less than such study to a player's progress; the main training value of such games is to point up weaknesses for future study.
+</blockquote>
+<p>
+Effortful study means constantly tackling problems at the very edge of your ability. Stuff you may have a high probability of failing at. Unless you're <a href="http://www.codinghorror.com/blog/archives/000300.html">failing some of the time</a>, you're probably not growing professionally. You have to seek out those challenges and push yourself beyond your comfort limit.
+</p><p>
+Those challenges can sometimes be found on the job, but they don't have to be. Separating the <i>practicing</i> from the <i>profession</i> is often referred to as <a href="http://www.codekata.com/">code kata</a>.
+</p><p>
+<a href="http://en.wikipedia.org/wiki/Kata_(martial_arts)"><img alt="Katas illustration" border="0" class="at-xid-6a0120a85dcdae970b0128777051e0970c" height="608" src="./The Ultimate Code Kata_files/6a0120a85dcdae970b0128777051e0970c-pi.png" width="548"></a>
+</p><p>
+The concept of kata, a series of choreographed practice movements, is <a href="http://en.wikipedia.org/wiki/Kata_(martial_arts)">borrowed from the martial arts</a>.
+</p><p>
+If you're looking for some examples of code kata -- ways to practice effortful study and hone your programming skills -- <a href="http://steve.yegge.googlepages.com/practicing-programming">Steve's article</a> has some excellent starting points. He calls them <b>practice drills</b>:
+</p><p>
+</p><ol>
+<li>Write your resume. List all your relevant skills, then note the ones that will still be needed in 100 years. Give yourself a 1-10 rating in each skill.
+<p>
+</p></li><li>Make a list of programmers who you admire. Try to include some you work with, since you'll be borrowing them for some drills. Make one or two notes about things they seem to do well -- things you wish you were better at.
+<p>
+</p></li><li>Go to Wikipedia's <a href="http://en.wikipedia.org/">entry for computer science</a>, scroll down to the "Prominent pioneers in computer science" section, pick a person from the list, and read about them. Follow any links from there that you think look interesting.
+<p>
+</p></li><li>Read through someone else's code for 20 minutes. For this drill, alternate between reading great code and reading bad code; they're both instructive. If you're not sure of the difference, ask a programmer you respect to show you examples of each. Show the code you read to someone else, and see what they think of it.
+<p>
+</p></li><li>Make a list of your 10 favorite programming tools: the ones you feel you use the most, the ones you almost couldn't live without. Spend an hour reading the docs for one of the tools in your list, chosen at random. In that hour, try learn some new feature of the tool that you weren't aware of, or figure out some new way to use the tool.
+<p>
+</p></li><li>Pick something you're good at that has nothing to do with programming. Think about how the professionals or great masters of that discipline do their practice. What can you learn from them that you can apply to programming?
+<p>
+</p></li><li>Get a pile of resumes and a group of reviewers together in a room for an hour. Make sure each resume is looked at by at least 3 reviewers, who write their initials and a score (1-3). Discuss any resumes that had a wide discrepancy in scoring.
+<p>
+</p></li><li>Listen in on a <a href="http://www.codinghorror.com/blog/archives/001042.html">technical phone screen</a>. Write up your feedback afterwards, cast your vote, and then talk about the screen with the screener to see if you both reached the same conclusions.
+<p>
+</p></li><li>Conduct a technical interview with a candidate who's an expert in some field you don't know much about. Ask them to explain it to you from the ground up, assuming no prior knowledge of that field. Try hard to follow what they're saying, and ask questions as necessary.
+<p>
+</p></li><li>Get yourself invited to someone else's technical interview. Listen and learn. Try to solve the interview questions in your head while the candidate works on them.
+<p>
+</p></li><li>Find a buddy for trading practice questions. Ask each other programming questions, alternating weeks. Spend 10 or 15 minutes working on the problem, and 10 or 15 minutes discussing it (finished or not.)
+<p>
+</p></li><li>When you hear any interview coding question that you haven't solved yourself, go back to your desk and mail the question to yourself as a reminder. Solve it sometime that week, using your favorite programming language.
+</li><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></ol>
+<p>
+What I like about Steve's list is that it's somewhat holistic. When some developers think "practice" they can't get beyond code puzzles. But to me, programming is <a href="http://www.codinghorror.com/blog/archives/000541.html">more about people than code</a>, so there's a limit to how much you can grow from solving every obscure programming coding interview problem on the planet.
+</p><p>
+I also like Peter Norvig's general recommendations for effortful study outlined in <a href="http://www.norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a>.
+</p><p>
+</p><ol>
+<li>Talk to other programmers. Read other programs. This is more important than any book or training course.
+<p>
+</p></li><li>Program! The best kind of learning is learning by doing.
+<p>
+</p></li><li>Take programming classes at the college or graduate level.
+<p>
+</p></li><li>Seek out and work on projects with teams of programmers. Find out what it means to be the best programmer on a project -- <i>and</i> the worst.
+<p>
+</p></li><li>Work on projects <i>after</i> other programmers. Learn how to maintain code you didn't write. Learn how to write code so other people can effectively maintain it.
+<p>
+</p></li><li>Learn different programming languages. Pick languages that have alternate worldviews and programming models unlike what you're used to.
+<p>
+</p></li><li>Understand how the hardware affects what you do. Know how long it takes your computer to execute an instruction, fetch a word from memory (with and without a cache miss), transfer data over ethernet (or the internet), read consecutive words from disk, and seek to a new location on disk.
+</li><p></p><p></p><p></p><p></p><p></p><p></p></ol>
+<p>
+You can also glean some further inspiration from <a href="http://www.codekata.com/">Pragmatic Dave's 21 Code Katas</a>, or maybe you'd like to <a href="http://www.codingdojo.org/">join a Coding Dojo</a> in your area.
+</p><p>
+I don't have a long list of effortful study advice like Steve and Peter and Dave do. I'm far too impatient for that. In fact, there are only two movements in my book of code kata:
+</p><p>
+</p><ol>
+<li><b>Write a blog.</b> I started this blog in early 2004 as a form of effortful study. From those humble beginnings it has turned into the most significant thing I've ever done in my professional life. So <a href="http://steve.yegge.googlepages.com/you-should-write-blogs">you should write blogs</a>, too. The people who can write and communicate effectively are, all too often, the only people who get heard. They get to set the terms of the debate.
+<p>
+</p></li><li><b>Actively participate in a notable open source project or three</b>. All the fancy blah blah blah talk is great, but are you <a href="http://www.codinghorror.com/blog/archives/001017.html">a talker or a doer</a>? This is critically important, because <a href="http://gettingreal.37signals.com/ch08_Actions_Not_Words.php">you will be judged by your actions, not your words</a>. Try to leave a trail of public, concrete, useful things in your wake that you can point to and say: I helped build that.
+</li><p></p></ol>
+<p>
+When you can write brilliant code <i>and</i> brilliant prose explaining that code to the world -- well, I figure that's <b>the ultimate code kata</b>.
+</p><p>
+</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+</section>
+<aside class="read-next">
+<div class="left">
+<div class="read-next-label">Next</div>
+<h3 class="read-next-title"><a href="https://blog.codinghorror.com/revisiting-the-xml-angle-bracket-tax/">Revisiting the XML Angle Bracket Tax</a></h3>
+</div>
+<div class="right">
+<div class="read-next-label">Previous</div>
+<h3 class="read-next-title"><a href="https://blog.codinghorror.com/department-of-declaration-redundancy-department/">Department of Declaration Redundancy Department</a></h3>
+</div>
+</aside>
+<footer class="post-footer">
+<section class="author">
+<h4>Written by Jeff Atwood</h4>
+<p>Indoor enthusiast. Co-founder of Stack Overflow and Discourse. Disclaimer: I have no idea what I'm talking about. Find me here: <a href="http://twitter.com/codinghorror">http://twitter.com/codinghorror</a></p>
+</section>
+</footer>
+</article>
+<div id="discourse-comments"><iframe src="./The Ultimate Code Kata_files/comments.html" id="discourse-embed-frame" width="100%" frameborder="0" scrolling="no" height="24301px"></iframe></div>
+<script type="text/javascript">
+      var discourseUrl = "https://discourse.codinghorror.com/",
+          discourseEmbedUrl = 'https://blog.codinghorror.com/the-ultimate-code-kata/';
+
+      (function() {
+        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+          d.src = discourseUrl + 'javascripts/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+      })();
+    </script>
+</main>
+<aside class="sidebar">
+ 
+<div id="welovecodinghorror-block">
+<span>
+<span class="block-wrap">
+<a href="https://smartbear.com/ppc/ebooks/getting-started-with-virtual-apis/?sr=codinghorror&amp;md=ad&amp;cm=2530&amp;ct=ebook" class="block-img" target="_blank"><img src="./The Ultimate Code Kata_files/Add-SB-Logo-API-Virtualization-eBook-250x250.png" width="140" height="140" alt="" border="0" max-width="140px"></a>
+<a href="https://smartbear.com/ppc/ebooks/getting-started-with-virtual-apis/?sr=codinghorror&amp;md=ad&amp;cm=2530&amp;ct=ebook" class="block-text" target="_blank">Learn how to transform your software delivery strategy with API virtualization, in this eBook.</a>
+</span>
+</span>
+</div>
+<script async="" type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=blogcodinghorrorcom" id="_carbonads_js"></script>
+<div id="hireme" class="hireme codinghorror" style="min-height: 220px; margin-bottom: 15px;" li2r1v4="" hidden=""></div>
+<script>
+    setTimeout(function () {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName('script')[0];
+        a.src = "//clc.stackoverflow.com/j/p?d=hireme";
+        a.async = true; 
+        a.type = "text/javascript"; 
+        b.parentNode.insertBefore(a, b);
+    }, 5);
+</script>
+<div class="welovecodinghorror" style="margin-bottom:15px" li2r1v4="" hidden="">
+[ad] Enjoy the blog? Read <b><a href="https://www.hyperink.com/Effective-Programming-More-Than-Writing-Code-b1559">Effective Programming: More than Writing Code</a></b> and <b><a href="https://www.hyperink.com/How-To-Stop-Sucking-And-Be-Awesome-Instead-b9A74B5CBA6">How to Stop Sucking and Be Awesome Instead</a></b> on your Kindle, iPad, Nook, or as a PDF.
+</div>
+<h3>Resources</h3>
+<ul>
+<li><a href="https://blog.codinghorror.com/about-me/">About Me</a></li>
+<li><a href="https://www.discourse.org/">discourse.org</a></li>
+<li><a href="https://stackexchange.com/">stackexchange.com</a></li>
+<li><a href="http://commonmark.org/help/">Learn Markdown</a></li>
+<li><a href="https://blog.codinghorror.com/recommended-reading-for-developers/">Recommended Reading</a></li>
+</ul>
+<ul>
+<li><a href="https://feeds.feedburner.com/codinghorror" class="icon-feed">&nbsp;Subscribe in a reader</a></li>
+<li><a href="https://feedburner.google.com/fb/a/mailverify?uri=codinghorror&amp;loc=en_US" class="icon-email">&nbsp;Subscribe via email</a></li>
+</ul>
+<p>Coding Horror has been continuously published since 2004</p>
+<footer class="site-footer">
+<section class="copyright">Copyright <a rel="author" href="https://profiles.google.com/codinghorror1">Jeff Atwood</a> © 2017<br>
+Logo image © 1993 Steven C. McConnell <br>
+Proudly published with <a class="icon-ghost" href="http://ghost.org/">Ghost</a></section>
+</footer></aside>
+</div>
+ 
+<script>
+        document.write(unescape("%3Cscript src='https://sb.scorecardresearch.com/beacon.js'%3E%3C/script%3E"));
+    </script><script src="https://sb.scorecardresearch.com/beacon.js"></script>
+<script>
+        COMSCORE.beacon({
+        c1: 2,
+        c2: "6035669",
+        c3: "",
+        c4: "http://www.codinghorror.com/blog/",
+        c5: "",
+        c6: "",
+        c15: ""
+        });
+    </script>
+<noscript>
+&lt;img src="//b.scorecardresearch.com/b?c1=2&amp;amp;c2=6035669&amp;amp;c3=&amp;amp;c4=http%3A%2F%2Fwww.codinghorror.com%2Fblog%2F&amp;amp;c5=&amp;amp;c6=&amp;amp;c15=&amp;amp;cv=1.3&amp;amp;cj=1" style="display:none" width="0" height="0" alt=""/&gt;
+</noscript>
+ 
+
+
+<div id="rbutr-extension-is-installed"></div><div style="display: none;" class="rbutrInstalled"></div><span style="border-radius: 3px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 20px; font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(189, 8, 28); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; -webkit-font-smoothing: antialiased; top: 1367px; left: 838px;">Guardar</span><span style="border-radius: 3px; text-indent: 20px; width: 20px; height: 20px; background: url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiIHZpZXdCb3g9IjAgMCAzMCAzMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPGc+CjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0IiBkPSJNMTcsMTcgTDIyLDIyIFogIi8+CjxjaXJjbGUgc3Ryb2tlPSIjZmZmIiBjeD0iMTMiIGN5PSIxMyIgcj0iNiIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjUiLz4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMCBMOCwwIEw4LDMgTDMsMyBMMyw4IEwwLDggWiIvPgo8cGF0aCBmaWxsPSIjZmZmIiBkPSJNMzAsMjIgTDMwLDMwIEwyMiwzMCBMMjIsMjcgTDI3LDI3IEwyNywyMiBaIi8+CjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0zMCwwIEwzMCw4IEwyNyw4IEwyNywzIEwyMiwzIEwyMiwwIFoiLz4KPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAsMjIgTDMsMjIgTDMsMjcgTDgsMjcgTDgsMzAgTDAsMzBaIi8+CjwvZz4KPC9zdmc+Cg==&quot;) 50% 50% / 14px 14px no-repeat rgba(0, 0, 0, 0.4); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; top: 1367px; left: 910px;"></span><table cellspacing="0" cellpadding="0" class="gstl_50 gssb_c" style="width: 183px; display: none; top: 73px; left: 1152px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table></body></html>

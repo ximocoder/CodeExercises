@@ -1,0 +1,1865 @@
+<!DOCTYPE html>
+<!-- saved from url=(0123)https://discourse.codinghorror.com/embed/comments?embed_url=https%3A%2F%2Fblog.codinghorror.com%2Fthe-ultimate-code-kata%2F -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <link rel="stylesheet" media="screen" href="./embed-e2dbeb3d5fed39aabb1a69dd16b21c6ba54be337e4224b93e4fc0fee7f41bf7a.css">
+      
+    <script src="./break_string-cc617154cd957804f2f6a1f3bc68258c9cdca3d4b9a322bf777d145fed04790e.js.descarga"></script><style type="text/css">
+:root div[style="margin-bottom:10px"],
+:root .welovecodinghorror,
+:root #hireme
+{ display: none !important; }</style>
+
+      <title>The Ultimate Code Kata - blog - Coding Horror Discussion</title>
+
+    <script>
+      (function() {
+
+        function postUp(msg) {
+          if (parent) {
+            parent.postMessage(msg, 'https://blog.codinghorror.com/the-ultimate-code-kata/');
+          }
+        }
+
+        function clickPostLink(e) {
+          var postId = e.target.getAttribute('data-link-to-post');
+          if (postId) {
+            var postElement = document.getElementById('post-' + postId);
+            if (postElement) {
+              var rect = postElement.getBoundingClientRect();
+              if (rect && rect.top) {
+                postUp({type: 'discourse-scroll', top: rect.top});
+                e.preventDefault();
+                return false;
+              }
+            }
+          }
+        }
+
+        window.onload = function() {
+          // Send a post message with our loaded height
+          postUp({type: 'discourse-resize', height: document['body'].offsetHeight});
+
+          var postLinks = document.querySelectorAll("a[data-link-to-post]"),
+              i;
+
+          for (i=0; i<postLinks.length; i++) {
+            postLinks[i].onclick = clickPostLink;
+          }
+
+          // Make sure all links in the iframe point to _blank
+          var cookedLinks = document.querySelectorAll('.cooked a');
+          for (i=0; i<cookedLinks.length; i++) {
+            cookedLinks[i].target = "_blank";
+          }
+
+          // Adjust all names
+          var names = document.querySelectorAll('.username a');
+          for (i=0; i<names.length; i++) {
+            var username = names[i].innerHTML;
+            if (username) {
+              names[i].innerHTML = new BreakString(username).break();
+            }
+          }
+
+        };
+
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="discourse">
+    <a class="button" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/2">Continue Discussion</a>
+  <span class="replies">105 replies</span>
+</header>
+
+    <article class="post" id="post-37337">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/2">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/RichardH" target="_blank"><img src="./45.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/RichardH" target="_blank" class="new-user">RichardH</a>
+        </h3>
+        <p>I am reminded of the book "The End of Ignorance" by John Mighton, a math teacher. He noticed a similar phenomenon of students who have had hundreds of hours of math instruction, yet are unable to solve the simplest questions.</p>
+
+<p>His solution, a method he calls JUMP, is actually the same thing as "effortful study". He creates a long detailed list of problems, starting with trivially easy ones, that get slowly more difficult yet incorporate previous information.</p>
+
+<p>I am not trying to advertise the book or method, but I wonder if there is a similar sequence of problems for computer programmers?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37338">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/3">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank"><img src="./36371_1.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank" class="staff">codinghorror</a>
+        </h3>
+        <p>Why all the focus on the resume and the interview (in the first list)?</p>
+
+<p>As I read it, Steve is advocating not the interviews themselves, but learning how to effectively <em>communicate what you've done</em> to other programmers or perhaps even people who aren't programmers at all, in person.</p>
+
+<p>Sort of like the elevator test, really:</p>
+
+<p><a href="http://blog.codinghorror.com/can-your-team-pass-the-elevator-test/" class="onebox" target="_blank" rel="nofollow">http://blog.codinghorror.com/can-your-team-pass-the-elevator-test/</a></p>
+
+<p>A very useful kata, indeed..</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37339">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/4">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Andy" target="_blank"><img src="./45(1).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Andy" target="_blank" class="new-user">Andy</a>
+        </h3>
+        <p>I equate kata to practicing the fundamentals, not as in your examples of pushing your limits by trying new and challenging tasks, I think what you're writing about is a different kind of growth, and definitely important, I just think there's a different word than kata.</p>
+
+<p>A kata is shooting a thousand free throws or Mikan drills (<a href="http://en.wikipedia.org/wiki/Mikan_Drill)" rel="nofollow" target="_blank"></a><a href="http://en.wikipedia.org/wiki/Mikan_Drill" rel="nofollow" target="_blank">http://en.wikipedia.org/wiki/Mikan_Drill</a>) per day, or performing the exact same sword stroke, or kung fu moves as you pictured, day in and day out for YEARS. Or even yoga poses with the intent to get that one move PERFECT.  And certainly within those 1000 free throws there's plenty of room for subtle nuance and experimentation to improve form. But the basic motion and goal is the same.</p>
+
+<p>In programming I'd argue that translates to doing things like (and in your own time on the path to self improvement) implementing a linked list for the umpteenth time, or a quick sort algorithm from primative types and structures (no base class library ArrayList.Sort cheats).  I don't think 99% of coders do this, except perhaps when trying to learn a new language from scratch.  I DO think that a list of "programmer free throw" exercises like these would make an excellent section on stackoverflow.com</p>
+
+<p>I think what you're describing is more like cross training, a very very important aspect to overall agility and adaptability, but quite different than a kata.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37340">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/5">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Joshbw" target="_blank"><img src="./45(2).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Joshbw" target="_blank" class="new-user">Joshbw</a>
+        </h3>
+        <p>There is a huge difference between being an expert programmer and being a professional program, though they are not necessarily mutually exclusive (they are also not necessarily complimentary).</p>
+
+<p>Professional programmers know about process and teamwork.  They don't just write good code and solve problems correctly, but they can work collaboratively with other programmers, follow coding guidelines, recognize when solutions are too clever, don't let their egos get in the way, and can do it right for the environment they are working in.</p>
+
+<p>Expert programmers can write code to difficult problems but it says absolutely nothing about whether they can work in a professional environment.</p>
+
+<p>Some of the ideas posted above contribute to either quality.  Ideally one would strive for both.  It is important for folks to realize there is a difference though, and that professional programming is only partially about writing code.</p>
+
+<p>I would ad that the the best professional programmers spend time testing.  The use products and find out what is wrong with them, and can get a mindset that thinks past "how can I make this work" and also thinks "How can I make this not work".  Professionally I will take the output from someone capable of that over someone who knows some clever trick to solve a problem any day, because in terms of the end result my product will be much better from the former than the latter.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37341">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/6">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/bjorn" target="_blank"><img src="./45(3).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/bjorn" target="_blank" class="new-user">bjorn</a>
+        </h3>
+        <p>The point of a kata isn't that you've done it 500 times, but rather that your entire focus was on every part of it, every time you did it. It's the same with programming, only if you're self-aware of the process will you be able to evolve as a programmer -- rather than just doing the same kind of problems faster. E.g. if you need to use some code you've seen somewhere else in your code base... do you copy'n paste it to get your current task finished as soon as possible? ..or do you go through the effort of pulling it out into a module, making it generic, implementing missing parts of the interface -- and then change the original code to use the new module, as well as using it for you current task.  I know what kind of programmer I want to work with, and that's the standard I'm setting for myself.</p>
+
+<p>If you're a mindful programmer at work, then perhaps it isn't so necessary to program when you get home.  In fact, if you're not enjoying it, you should probably take a break and do something completely different.  As long as it is something, active physically or mentally, inspiration will sooner or later grab you by the balls and squeeze until you can't help but try out your new idea.</p>
+
+<p>ps: if some of you are looking for problems to solve, go to comp.lang.your-language-of-choice and try answering the questions that come up. It will give you problem-solving practice, writing-about-programs practice, and you might actually help someone <img src="./slight_smile.png" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+<p>pps: I practice what I preach: <a href="http://groups.google.com/group/comp.lang.python/msg/4670c431aa5a8884" rel="nofollow" target="_blank"></a><a href="http://groups.google.com/group/comp.lang.python/msg/4670c431aa5a8884" rel="nofollow" target="_blank">http://groups.google.com/group/comp.lang.python/msg/4670c431aa5a8884</a></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37342">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/7">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BH12" target="_blank"><img src="./45(4).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BH12" target="_blank" class="new-user">BH<wbr>​12</a>
+        </h3>
+        <p>While I'm not for copying code from the internet and pasting it into my software, why should a "good programmer" really understand how everything works underneath the code?</p>
+
+<p>Because it's the difference between being a technician who merely applies other people's solutions to a problem and an engineer who can do that or build an entirely new solution from scratch.  There's nothing wrong with either career path but it's the latter who are building the search engines, operating systems, etc. that we all use.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37343">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/8">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/HB159" target="_blank"><img src="./45(5).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/HB159" target="_blank" class="new-user">HB<wbr>​159</a>
+        </h3>
+        <p><span class="mention">@BH</span></p>
+
+<p>If you're suggesting all of the software you use was written by someone who could build an operating system from scratch then I think you might be going a little overboard.</p>
+
+<p>Consider something like the online banking service that you access via the web. It seems more likely to me that the person or team that built that used technologies like ASP or PHP to construct their application. They most likely had more people that knew the difference between banking terms and regulations as opposed to how the routines of the System.IO.File class performed their magic.</p>
+
+<p>They may have had several people who knew C or something like that, but do you think they were focused on writing a <em>new</em> way to write files to the hard drive, or instead bringing as many of their services to a web interface. </p>
+
+<p>Does that mean they aren't "good programmers" because they didn't write their own web server system to handle incoming requests, but instead relied on existing technologies? I'm not saying I know, I'm just trying to differenciate.</p>
+
+<p>It seems to me software development is just like the construction business. You've got people who build the houses and you've got people that build the tools for people to build with. Does that mean because they don't know how the power drills work on the inside they don't know how to build a house? Do they need to know how to actually build their own concrete mixers before they are a real "builder"?</p>
+
+<p>I dunno... just rambling on, but it just seems to me that people embrace this all or nothing mentality when it comes to software development. Either you know all your 1s and 0s or you don't know anything...</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37344">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/9">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jorge" target="_blank"><img src="./45(6).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jorge" target="_blank" class="new-user">Jorge</a>
+        </h3>
+        <p>Although I mostly agree with the post and with things such as practice vs improve, and study vs experience (that last not so much) I've come to realize real learning is just about learning to do things not how to get things done (which may seem the same but is completely different).</p>
+
+<p>I'm a big fan of Joel GTD don't get me wrong, it is useful at work and helps getting the project shipped but learning from it is a very different story.</p>
+
+<p>Some time ago I realized I was doing a lot of things (specially programming) without really knowing what I was doing and why. I mean, I developed a simple DirectX application, just for fun, very simple to learn how to program DirectX. So I grabbed a couple of tutorials, learn its way, learn how to initialize it, how to draw a couple of meshes and even have some physics involved... and then I realized I was learning nothing... I didn't know why I was suppling each parameter for initialization, I didn't really understand how the Directx pipeline worked, I was just repeating stuff.</p>
+
+<p>I've known a lot of professional .NET coders who don't really know how the CLR works, don't even know how the IL looks like or what does it means. They get a lot of thing done but they don't know why or how. So I started looking up a lot of stuff... but the thing is, once you start you can't really stop anywhere... you start by looking up CLR and then you get dragged to ECMA specs and the evolution from COM model, you want to know how the garbage collector really works so you read about it and then you start seeing really interesting thinhs such as generations or collections and each thing seem to lead to another so you finally start to realize how little you know.</p>
+
+<p>I think is like learning pointers, linked list, hashes, B-Trees and so on... they aren't used so much this days as practically every modern language has a library encapsulation such a common functionality but, nonetheless, they are worth learning anyway as they give you an insight, a new way of do and think about problems.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37345">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/10">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Tommy" target="_blank"><img src="./45(7).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Tommy" target="_blank" class="new-user">Tommy</a>
+        </h3>
+        <p>Been reading your blog for a while (never comment) and I am not even a programmer, unless basic HTML/CSS counts (doesn't in my book). The quote about "effortful study" and chess and golf struck a cord me. Cause it is 110% true and then some.</p>
+
+<p>Growing up (and I am almost 40) I was an avid golfer. Very, very good. Went to college on a Division I golf scholarship.</p>
+
+<p>My home course was on an Air Force base, where my father worked. But we lived off-base. For many years, and almost every summer day by dad would drop me off at the course as he went to work at around 7:15, have lunch with me around noon, and then pick me up after work around 6:30.</p>
+
+<p>Now this was also the course my high school team played on so I could have played as many holes a day as I wanted for free. Many days, no most days I didn't play a single hole.</p>
+
+<p>Instead I practiced. I didn't just hit balls, it was "effortful study." I had almost a shorthand I used when I did play that noted my play in massive detail on each hole. I could analyze the score card and see if my long irons here coming up short and left of pin placements. Sand saves were an issue. The number of variables could go on and on. Putt, oh problems with putting where always on the list (I think might have held me back from being a pro BTW).</p>
+
+<p>I would then practice those areas where I had a problem. Over, and over, and then over again.</p>
+
+<p>Other kids would often think I was crazy, saying "lets go play Tommy, practice isn't any fun." Well one I made it fun and it was really, really fun to kick their asses when we did hit the course.</p>
+
+<p>I maybe didn't connect the dots entirely, but I do use a similar approach in my professional life. I've taught myself a lot of stuff I was never "officially" trained on by "effortful study" (and effortful practice).</p>
+
+<p>I like a lot of what you write for a number of reasons. But I almost think this is a topic you could write a whole lot of articles on, cause IMHO most folks don't get the concept. </p>
+
+<p>Tommy</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37346">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/11">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/NickR" target="_blank"><img src="./45(8).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/NickR" target="_blank" class="new-user">NickR</a>
+        </h3>
+        <blockquote><p>Effortful study means constantly tackling problems at the very edge of your ability</p></blockquote>
+
+<p>I think you just summarized flow.</p>
+
+<p><a href="https://www.amazon.com/dp/0060920432?tag=codihorr-20" rel="nofollow" target="_blank"></a><a href="https://www.amazon.com/dp/0060920432?tag=codihorr-20" rel="nofollow" target="_blank">https://www.amazon.com/dp/0060920432?tag=codihorr-20</a></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37347">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/12">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank"><img src="./36371_1.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank" class="staff">codinghorror</a>
+        </h3>
+        <blockquote><p>I can't help but feel that blogging part-time along with your day job made me feel that you were somehow more involved in this very ethos yourself.</p></blockquote>
+
+<p>You understand that "my day job" is building stackoverflow.com, right? You can read and hear a lot more about that, here</p>
+
+<p><a href="http://blog.stackoverflow.com/" rel="nofollow" target="_blank"></a><a href="http://blog.stackoverflow.com/" rel="nofollow" target="_blank">http://blog.stackoverflow.com/</a></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37348">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/13">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BH13" target="_blank"><img src="./45(9).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BH13" target="_blank" class="new-user">BH<wbr>​13</a>
+        </h3>
+        <p>HB wrote:<br>Consider something like the online banking service that you access via the web.<br>Considering the sheer volume of breaches that occur of online sites because of the failure of the developer to understand the underlying principles by which their tools work (e.g. SQL injection, cross site scripting, and so forth), I don't think your example supports your argument very well.</p>
+
+<p>Does that mean they aren't "good programmers" because they didn't write their own web server system to handle incoming requests, but instead relied on existing technologies?<br>I wrote "...do that [where "that" refers to the earlier "apply the solutions of others"] or build an entirely new solution from scratch..." precisely to forestall the objection that you are making.  The point is that they can intelligently make a choice to do one or the other based on what is best for the given situation.</p>
+
+<p>It seems to me software development is just like the construction business. You've got people who build the houses and you've got people that build the tools for people to build with.<br>Your analogy doesn't match up with what I intended to say.  To use your terms, what I am saying is that there are construction workers and then there are the architects who did all the math to make sure the building wouldn't fall down, all applicable codes were complied with, and specified the tools and materials.</p>
+
+<p>Again, I am carefully not saying that one is "better" (whatever that means) than another, merely that a deeper understanding makes it possible to find a more optimal solution to problems.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37349">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/14">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Chris" target="_blank"><img src="./45(10).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Chris" target="_blank" class="new-user">Chris</a>
+        </h3>
+        <p>"Coding dojo"?  Joining a real dojo wouldn't hurt either.  If it improved Josh Waitzkin's chess, it could help your programming too.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37350">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/15">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/justbrowsing" target="_blank"><img src="./45(11).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/justbrowsing" target="_blank" class="new-user">justbrowsing</a>
+        </h3>
+        <p>Ah yes, another blog about self-improvement degenerating into a "who's-better-than-another" thread in the comment area.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37351">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/16">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/F_O_R3" target="_blank"><img src="./45(12).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/F_O_R3" target="_blank" class="new-user">F_<wbr>​O_<wbr>​R<wbr>​3</a>
+        </h3>
+        <p>wow.. linked by Lifehacker too ( <a href="http://lifehacker.com/396831/focused-practice-not-everyday-work-improves-your-skills" rel="nofollow" target="_blank"></a><a href="http://lifehacker.com/396831/focused-practice-not-everyday-work-improves-your-skills" rel="nofollow" target="_blank">http://lifehacker.com/396831/focused-practice-not-everyday-work-improves-your-skills</a> ). Grats Jeff !</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37352">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/17">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/ValentinG" target="_blank"><img src="./45(13).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/ValentinG" target="_blank" class="new-user">ValentinG</a>
+        </h3>
+        <p>I put it to you gentlemen that having a very clear goal to pursue - even the smallest one - is the true way to advance in programming!</p>
+
+<p>Never start by 'learning' something, follow foreign code, tutorials or all the like just for the sake of it - or some new fancy word like 'kata'.</p>
+
+<p>'Burn' for something, crave it! Be it a 2D game, a tool you need but you cannot yet find, a custom porn crawler because sorting manually in wads of hardcore threesomes doesn't interest you no more, the next web 2.0 thingy, whatever!</p>
+
+<p>Fighting for this - even if it takes years - will get you worked up, experienced, knowledgeable, exhausted, disenchanted and 'practiced' like no other!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37353">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/18">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/UsmanS" target="_blank"><img src="./45(14).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/UsmanS" target="_blank" class="new-user">UsmanS</a>
+        </h3>
+        <p>First!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37354">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/19">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank"><img src="./36371_1.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank" class="staff">codinghorror</a>
+        </h3>
+        <p>There's a strong likelihood that stackoverflow.com will eventually be open source -- I'm probably going to follow the reddit.com model and open source the code once the site is firmly established.</p>
+
+<p>Beyond that, I have several mini-projects on CodePlex and CodeProject. You can look 'em up if you're really interested.</p>
+
+<p>I should have also listed as an alternative to <span class="hashtag">#2</span>, "build a commercial software product or software business".</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37355">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/20">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Mike" target="_blank"><img src="./45(15).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Mike" target="_blank" class="new-user">Mike</a>
+        </h3>
+        <p>The best of those lists are to do with the actual programming, as I find just thinking about programming gets you nowhere. For a bit of fun I'm going to learn Prolog over the summer; at least that's what I told myself two weeks ago after coming up with my brand-new list of stuff to read/learn over the summer.</p>
+
+<p>That being said, I have benefited a lot from reading other peoples code on development forums around the Internet and by following the problems that other people face with their projects. By being a bit more social with your programming you can probably learn a lot more than just sitting at a desk on your own all day.</p>
+
+<p>Right then, I'm off to do some drills.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37356">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/21">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Ian" target="_blank"><img src="./45(16).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Ian" target="_blank" class="new-user">Ian</a>
+        </h3>
+        <p>Good post. I like the idea of practice/training to improve skills. Even little things like learning some keyboard shortcuts in your software tools or learning some new language construct that you haven't used before.</p>
+
+<p>However as someone who has been involved in martial arts in an ameuter capacity for a few years and who is living in Japan I'm starting to find all these references to "Eastern" martial arts/zen/tao etc from developer pundits pretty tiresome. It seems particularly common from the agile community - Cockburn, Dave Thomas etc seem to like sprinkling snippets of eastern wisdom through their writing just to add a touch of "exoticness". Enough already. Code dojo, code kata, coding fu - when will it stop. Ironically - some of these pundits could clearly benefit a bit from some real physical kata training which builds balance, coordination and improves focus and concentration - not to mention helping lose a few pounds.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37357">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/22">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Sergio3" target="_blank"><img src="./45(17).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Sergio3" target="_blank" class="new-user">Sergio<wbr>​3</a>
+        </h3>
+        <p>"...From those humble beginnings it has turned into the most significant thing I've ever done in my professional life"</p>
+
+<p>...by blatantly quoting already written articles by other prominent bloggers who post actually original texts, in order to increase my pageviews.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37358">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/23">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Fluffle" target="_blank"><img src="./45(18).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Fluffle" target="_blank" class="new-user">Fluffle</a>
+        </h3>
+        <p><a href="http://www.codeplex.com/site/users/view/jatwood" rel="nofollow" target="_blank"></a><a href="http://www.codeplex.com/site/users/view/jatwood" rel="nofollow" target="_blank">http://www.codeplex.com/site/users/view/jatwood</a></p>
+
+<p>Recent Activity<br> (last 60 days)<br>No activity in the last 60 days.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37359">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/24">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Joe" target="_blank"><img src="./45(19).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Joe" target="_blank" class="new-user">Joe</a>
+        </h3>
+        <p>Hi Jeff,</p>
+
+<p>I've been reading and enjoying your blog for years.</p>
+
+<p>Not sure if this is related to your post, though, but since you've turned pro blogger, your entries for me have somehow lost an element of their appeal. I suspect it's just a perceptual thing on my part, yet I can't help but feel that blogging part-time along with your day job made me feel that you were somehow more involved in this very ethos yourself.</p>
+
+<p>No offence intended - just a personal vibe I'm getting.</p>
+
+<p>Joe</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37360">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/25">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/LytithwynE" target="_blank"><img src="./45(20).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/LytithwynE" target="_blank" class="new-user">LytithwynE</a>
+        </h3>
+        <p>You know, I used to have to WORST time reading other peoples code; I think most of it was the preliminary shock of greping through fifty source code files to find what I was looking for, then opening the file and seeing all that code that I'd never seen before.</p>
+
+<p>Once I just delved in and did it several times, I started to get better at it.  Now it doesn't seem to take me near as long as it used to.  I think that would be something I'd want to practice on, though.  I think maybe I'll take some time to come up with examples of things I have no idea how to do, then learn how by reading someone else's open source code that already does it.</p>
+
+<p>I'm still just a n00b programmer by far, and I really appreciate all your advice, Jeff.  Thanks!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37361">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/26">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank"><img src="./45(21).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank" class="new-user">Jeff_<wbr>​<wbr>​Davis</a>
+        </h3>
+        <p>Why all the focus on the resume and the interview (in the first list)? I assume that being good at dealing with interviews can get you hired, but does that make you a better programmer?</p>
+
+<p>But I very much agree that looking at others' code and ideas can make you learn new ideas and learn very quickly.</p>
+
+<p>For good foundation, there is no replacement for studying books.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37362">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/27">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/kenneth2" target="_blank"><img src="./45(22).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/kenneth2" target="_blank" class="new-user">kenneth<wbr>​2</a>
+        </h3>
+        <p>Practicing coding in your spare time, eh? Nope, sorry. Look, I understand that some people eat, breathe and sleep coding. And I do put in time to try to keep up with things (I read Jeff's blog every day, for one.) But, when I get off work I'm totally burned out. I need to watch a little tv, talk to the wife, get my thoughts together for a bit before I have to go to bed and start the cycle all over again. </p>
+
+<p>Does that mean I'm not a professional even though I'm getting paid to program? Does that mean I don't deserve to be called a professional programmer? Just because I've decided not to sell my heart and soul to the computer gods does that exclude me from the cool kids club? Maybe. And if so, then so be it, and I shall remain the kind of/almost professional programmer.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37363">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/28">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank"><img src="./45(21).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank" class="new-user">Jeff_<wbr>​<wbr>​Davis</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/kenneth" target="_blank">@kenneth</a></p>
+
+<p>I recommend chess. Relaxing and relieves the burn-out feeling, yet helps you to think more clearly and makes you a more effective programmer, all at once!</p>
+
+<p>It's not for everyone, but it's definitely worth checking out.</p>
+
+<p>But I agree that time with the wife (and kids, where applicable) is more important. <img src="./slight_smile.png" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37364">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/29">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jim_Menard" target="_blank"><img src="./45(23).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jim_Menard" target="_blank" class="new-user">Jim_<wbr>​<wbr>​Menard</a>
+        </h3>
+        <p>"You can gain experience, if you are careful to avoid empty redundancy. Do not fall into the error of the artisan who boasts of twenty years experience in his craft while in fact he has had only one year of experience---twenty times." -- Trevanian, in Shibumi</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37365">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/30">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/MichaelR" target="_blank"><img src="./45(24).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/MichaelR" target="_blank" class="new-user">MichaelR</a>
+        </h3>
+        <p> Does that mean I'm not a professional even though I'm getting paid to program? Does that mean I don't deserve to be called a professional programmer? Just because I've decided not to sell my heart and soul to the computer gods does that exclude me from the cool kids club? Maybe. And if so, then so be it, and I shall remain the kind of/almost professional programmer.</p>
+
+<p>It means you won't be as good as those who do.  You may not like it, but that's the choice you make.  Just don't pretend that you're as good as someone who <em>does</em> enjoy working on projects outside of work.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37366">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/31">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/John_Kraft" target="_blank"><img src="./45(21).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/John_Kraft" target="_blank" class="new-user">John_<wbr>​<wbr>​Kraft</a>
+        </h3>
+        <p>In case you're interested, the kata in your illustration is a kata called Enpi (if you're Japanese stylist) or Wanshu (if you're Okinawan stylist).  <img src="./slight_smile.png" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+<p>Good post, Jeff.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37367">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/32">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Peter_B" target="_blank"><img src="./45(25).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Peter_B" target="_blank" class="new-user">Peter_<wbr>​B</a>
+        </h3>
+        <p>If you want the ultimate code kata then do the exercises in SICP ... all of them.  'nuff said.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37368">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/33">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Kirschstein" target="_blank"><img src="./45(26).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Kirschstein" target="_blank" class="new-user">Kirschstein</a>
+        </h3>
+        <p>Jeff, you seem to have an uncanny knack for putting out a post that's totally relevant to the current 'big thought' that i'm toying about with in my mind. I'm seriously starting to consider wearing a tin foil hat to keep you out of my head.</p>
+
+<p>Although I don't always agree with you, you often at least provoke a good amount of inner discussion for me to get on start getting on with. </p>
+
+<p>Many thanks and keep it up.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37369">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/34">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank"><img src="./45(27).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank" class="new-user">Jeremy</a>
+        </h3>
+        <p>I was actually just in the middle of pre-writing (writing on a legal pad) my next blog post on this EXACT thing, about how I'm not a professional, and most professionals are sub-par compared to the kids that hack on their parent's computers.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37370">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/35">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/chrisl1" target="_blank"><img src="./45(28).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/chrisl1" target="_blank" class="new-user">chrisl<wbr>​1</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/kenneth" target="_blank">@Kenneth</a><br>"professional" just means you are being paid for it.  It doesn't mean you're any good.</p>
+
+<p><a class="mention" href="https://discourse.codinghorror.com/users/jeff" target="_blank">@jeff</a><br>I believe practicing means experimenting with different ways of doing things.  By taking the time to learn the good and bad parts of different approaches first hand, you are able to make better decisions.  Too many people follow the crowd without understanding how the choices they make impacts the projects they are working on.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37371">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/36">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/HB160" target="_blank"><img src="./45(29).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/HB160" target="_blank" class="new-user">HB<wbr>​160</a>
+        </h3>
+        <p>Well, I'm certainly not trying to start an argument, mostly I was responding to earlier comments, but just as a response.</p>
+
+<p>Obviously, not all banking sites are failures so to try and cluster them all together as such doesn't make much sense. My point is that there is no doubt a lot of software/sites written by people not versed in languages like C, but it's still quality software. </p>
+
+<p>So my whole question from the start was what makes someone a "good programmer"? Knowing C? Doing "katas" like in this discussion? Devoting long hours out of work to write code and routines that have been long established? </p>
+
+<p>I don't really know, it was just that my opinion was that a "good programmer" is a good problem solver who cares about the quality of his work.</p>
+
+<p>I certainly agree with you that knowing more helps someone have more alternatives, I just don't know that going deeper into low level code, or off to unrelated tangents (or at least OCR and 3D is unrelated to me) is always the best way to improve yourself.</p>
+
+<p>Anyhow, good response. I think you and I are both saying all levels of development co-exist, or that none is "better" as you put it, but so much as relies on each other.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37372">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/37">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Kris" target="_blank"><img src="./45(30).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Kris" target="_blank" class="new-user">Kris</a>
+        </h3>
+        <p>I agree with some of the other comments here, I don't see how all the interviewing makes you all that better. I think a list that might be more relevent would be </p>
+
+<ol>
+<li>Code</li>
+<li>Code</li>
+<li>Code</li>
+</ol>
+
+<p>Again though, as you stated, you need to be pushing the edges of where your abilities. If you're just coding the same thing over and over at it, you might be really efficient at doing that one task, but it doesn't make you a good programmer.</p>
+
+<p>I get burnt out a lot of days after work too, 8 hours straight will do that. But many days, i will also put in several hours worth of coding (ussually involving me staying up way too late and then struggling to make it through the next day). I just get in moods, sometimes i don't want anything to do with coding after work and other days, when I've got a cool idea in my head, I might kick out another 4-5 hours without a second thought.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37373">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/38">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Owen_Byrne" target="_blank"><img src="./45(31).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Owen_Byrne" target="_blank" class="new-user">Owen_<wbr>​<wbr>​Byrne</a>
+        </h3>
+        <p>This may seem like a silly idea, but having recently gone through a round of job applications, tests, etc (found a job thanks!) I feel that the process was actually educational. Programming tests mostly test the basic stuff, but if you've been working for 10+ years, there's nothing like a little refresher.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37374">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/39">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/kenneth3" target="_blank"><img src="./45(32).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/kenneth3" target="_blank" class="new-user">kenneth<wbr>​3</a>
+        </h3>
+        <p>Let me clarify a bit. My point is just because you don't code outside of work DOES NOT mean you are not a good, competent programmer. I put out good, productive code and I strive to be better all the time. I just don't think I need to sacrifice my personal time to do that. And there are many like me who know they are not superstars and don't want to be. They want to be good at what they do and go home at the end of a long day. It may seem strange to admit that, especially in a field where egos run wild and people don't want to admit mistakes - but I'm being honest. You certainly don't want to be known as the worst programmer where you work. But, look, not everyone can be the best.</p>
+
+<p>Sure, from time to time I sit down with a book/magazine and learn about the groovy new tools/trends. I've converted code from some old apps using a new language, learning along the way. But I'm not spending my weekends thinking about coding. You have to pick what's important for you. I just thought I'd give my point of view.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37375">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/40">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/LloydF" target="_blank"><img src="./45(33).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/LloydF" target="_blank" class="new-user">LloydF</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/sergio" target="_blank">@Sergio</a>:</p>
+
+<p>So pulling ideas together from several sources and synthesizing a discussion isn't worthwhile?  Where's your blog, and why aren't I reading it?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37376">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/41">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Konrad" target="_blank"><img src="./45(34).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Konrad" target="_blank" class="new-user">Konrad</a>
+        </h3>
+        <p>Hi Jeff,</p>
+
+<p>great post. It's interesting to compare notes and tick off the bullet points. I've done most of the things from Peter's list – good. I've done a few from Steve's. What I've not done so far is write a blog. And I agree with your (implied) assessment: To write good code, it's essential to write <em>about</em> code.</p>
+
+<p>By the way: It's nice to see someone outside of Microsoft using CodePlex.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37378">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/43">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Phil" target="_blank"><img src="./45(35).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Phil" target="_blank" class="new-user">Phil</a>
+        </h3>
+        <p>Kenneth,</p>
+
+<p>I would like to add that your work should be encouraging this type of activity and that much of your 'practice' should be done during "regular business hours" The most practice I do outside of work is an occasional project that catches my fancy (maybe a couple a year that take no more than a day or two to complete) and reading various trade magazines.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37379">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/44">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Andy_Lee" target="_blank"><img src="./45(36).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Andy_Lee" target="_blank" class="new-user">Andy_<wbr>​<wbr>​Lee</a>
+        </h3>
+        <p>Thanks for this post.  It's relevant to things that have been swimming in my mind for a while.</p>
+
+<p>There are two ways kata help you improve:</p>
+
+<ul>
+<li><p>Doing new things.  By studying a kata you've never studied before, you broaden your horizons.  As a programmer, for example, you might write a simple HTTP server if you've never done network programming before (it might be worth me doing something like this, come to think of it).</p></li>
+<li><p>Doing old things better.  Even after you can do a "passing" kata, you can spend years improving it.  A rough equivalent for programmers would be "pimping my code," as Wil Shipley calls it.  IMO you've got to be constantly pimping.</p></li>
+</ul>
+
+<p>The kata metaphor breaks down a bit in that in martial arts, kata tend to be traditional with very little room for variation and no room for invention.  By contrast, when you're doing coding-for-exercise, it's a good thing to invent new little projects.  I think of them like a musician writing etudes to work on a particular aspect of technique.</p>
+
+<p>By the way, I practice judo, where kata play a somewhat different role than in karate, but the general idea is the same.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37380">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/45">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Chris" target="_blank"><img src="./45(10).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Chris" target="_blank" class="new-user">Chris</a>
+        </h3>
+        <p>This was a great post.  Thanks!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37381">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/46">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/pete" target="_blank"><img src="./45(37).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/pete" target="_blank" class="new-user">pete</a>
+        </h3>
+        <p>I think actual program practice also helps in other ways you develop lots of code snippets you can then refer back to when you can't remember exactly how to do something. I still have all the lab exercises from when I did my MCAD sometimes open them just to find a simple bit of code. I think lots of programmers either keep all the source to all their projects for ever even if they change programming languages, other people prefer a proper code repository.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37382">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/47">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/DigitalD" target="_blank"><img src="./45(38).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/DigitalD" target="_blank" class="new-user">DigitalD</a>
+        </h3>
+        <p>I have usually disagreed with much of what is on here in the past, but I think he is right on in this text.  I as a programmer, do quite a bit outside work to keep my skills honed.  I involve myself with open source projects in diverse languages and environments, just to keep me on my toes.  I go to programmer user groups, and even speak and give presentations occasionally.  and after work whilst most programmers are staying as far away from code as they can while they relax, I'm in front of my computer making up stupid things to code.  I mean, really stupid things... but just to code.  like I wrote a program that would scan my hard drives for all images on the system, and display it out paginated in a Windows.Form.WebBrowser control.  Why?  absolutely no reason, but just to do some coding.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37383">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/48">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/JorgeD" target="_blank"><img src="./45(39).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/JorgeD" target="_blank" class="new-user">JorgeD</a>
+        </h3>
+        <p>Great article. I had to read code for two months once and it was a BIG experience. Still have my doubts about the blog, though.</p>
+
+<p>There are some comments with bad karma here, but as don Quixote said: 'the dogs bark: a sign that we're riding, Sancho'</p>
+
+<p>best regards</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37384">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/49">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BrianK" target="_blank"><img src="./45(40).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BrianK" target="_blank" class="new-user">BrianK</a>
+        </h3>
+        <p>Noticed something similar just the other day while driving out to the airport...  There's an awful lot of people that have never progressed beyond the most basic driving skills that they learned eons ago...</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37385">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/50">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/ak47" target="_blank"><img src="./45(41).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/ak47" target="_blank" class="new-user">ak<wbr>​47</a>
+        </h3>
+        <p>2 kenneth the thing is, if you don't enjoy (as much) coding in your free time, you don't get as much practice as those people who do.</p>
+
+<p>programming professionally can leave you feeling burnt-out (doing almost the same full time, in "a standard language" is no fun), so no joyful coding (ie. expanding your own horizons) afterwards for you.</p>
+
+<p>no, programming professionally has nothing to do with being a good programmer, other than bringing false sense of being one.</p>
+
+<p>i know a buch of "professional programmers" who just use patterns they learned in some book/from somebody else and in case they don't know they just cutpaste some code from web without fully understanding it (it works, so what) ...</p>
+
+<p>so IMO no, unless one enjoys coding in his free time (and tries his best to understand everything, likes to take it apart to see how it ticks ..), no, one can't be a good programmer.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37386">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/51">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Dalton" target="_blank"><img src="./45(42).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Dalton" target="_blank" class="new-user">Dalton</a>
+        </h3>
+        <p>I once wrote on my blog about the need to study by comparing how experience and purposeful education teach us differently. </p>
+
+<p><a href="http://www.daltonfilho.com/2008/02/10/in-praise-of-education/" rel="nofollow" target="_blank"></a><a href="http://www.daltonfilho.com/2008/02/10/in-praise-of-education/" rel="nofollow" target="_blank">http://www.daltonfilho.com/2008/02/10/in-praise-of-education/</a></p>
+
+<p>I like this kata idea exactly because software is more about people: if we can find a way to study efficiently, it means there will be more free time to do other fulfilling things, which, on their turn, will make us happier (and therefore better) programmers.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37387">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/52">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/em1" target="_blank"><img src="./45(43).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/em1" target="_blank" class="new-user">em<wbr>​1</a>
+        </h3>
+        <p>This reminds of a dinosaur comic that i think summarizes the post nicely.</p>
+
+<p><a href="http://www.qwantz.com/index.php?comic=618" class="onebox" target="_blank" rel="nofollow">http://www.qwantz.com/index.php?comic=618</a></p>
+
+<p></p><div class="lightbox-wrapper"><a data-download-href="//discourse-cdn.codinghorror.com/uploads/default/d76cf75a34d27d1680f41383411589f7ef10895c" href="https://discourse-cdn.codinghorror.com/uploads/default/72786/811986ceedbc520f.png" class="lightbox" title="Pasted image" target="_blank"><img src="./10a5b30640_690x469.png" width="690" height="469"></a></div>
+
+      </div>
+    </article>
+    <article class="post" id="post-37388">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/53">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Adam" target="_blank"><img src="./45(44).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Adam" target="_blank" class="new-user">Adam</a>
+        </h3>
+        <p>FRIGGIN' INTENSE!!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37389">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/54">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/MitchB" target="_blank"><img src="./45(45).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/MitchB" target="_blank" class="new-user">MitchB</a>
+        </h3>
+        <p>Re: Write a blog: <a href="http://softwareindustrialization.com/" rel="nofollow" target="_blank"></a><a href="http://softwareindustrialization.com/" rel="nofollow" target="_blank">http://softwareindustrialization.com</a></p>
+
+<p>Re: Actively participate in a notable open source project or three: Well, maybe not notable:  <a href="http://globalsystembuilder.com/" rel="nofollow" target="_blank"></a><a href="http://globalsystembuilder.com/" rel="nofollow" target="_blank">http://globalsystembuilder.com</a></p>
+
+<p>So, what does it all mean?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37390">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/55">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Reed" target="_blank"><img src="./45.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Reed" target="_blank" class="new-user">Reed</a>
+        </h3>
+        <p>Jeff, you should include a "code katas" section here or on stackoverflow. Give us some practice exercises to try, a mix of coding problems (fizz buzz anyone? !!), general thinking problems, etc.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37391">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/56">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/NMasao" target="_blank"><img src="./45(46).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/NMasao" target="_blank" class="new-user">N<wbr>​Masao</a>
+        </h3>
+        <p>If some of the people who commented on this post are programmers, then we have a problem.Some read just one line and then go commenting based on that line.I think its a great post, and Jeff is a great programmer.(see his articles on codeproject)Great insight.Cheers</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37392">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/57">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/HB161" target="_blank"><img src="./45(47).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/HB161" target="_blank" class="new-user">HB<wbr>​161</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/ak47" target="_blank">@ak47</a> </p>
+
+<p>While I'm not for copying code from the internet and pasting it into my software, why should a "good programmer" really understand how everything works underneath the code?</p>
+
+<p>From my perspective, I'm more interested in writing programs that solve problems for myself and others. I'm not too interested in just how exactly my code writes to the hard drive, or when I call MessageBox.Show() what is done behind the scenes to draw the little popup, etc... etc...</p>
+
+<p>I see a lot of people with the same mentality of "good programmers" devote all their time to learning C or trying their best to write the fastest sorting routine ever... but I have to wonder where the "problem solving programmers" mix into the sterotypical "good programmer".</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37393">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/58">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Alex_Miller" target="_blank"><img src="./45(48).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Alex_Miller" target="_blank" class="new-user">Alex_<wbr>​<wbr>​Miller</a>
+        </h3>
+        <p>Fantastic post, as usual, Sensei.  You even inspired a blog tribute to some heroes of mine: </p>
+
+<p><a href="http://tech.puredanger.com/2008/06/23/on-code-bird-and-coltrane" rel="nofollow" target="_blank"></a><a href="http://tech.puredanger.com/2008/06/23/on-code-bird-and-coltrane" rel="nofollow" target="_blank">http://tech.puredanger.com/2008/06/23/on-code-bird-and-coltrane</a></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37395">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/60">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/KG13" target="_blank"><img src="./45(49).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/KG13" target="_blank" class="new-user">KG<wbr>​13</a>
+        </h3>
+        <p>HB - anyone can write ordinary business apps. Good programmers are capable of expanding far beyond this domain, which requires a deeper knowledge of how your platform works. Try designing 3d modeling software, or optical-character-recognition software to learn about neural nets, or a video game with a computer opponent so you can practice AI, or maybe design a small programming language (I recently wrote an interpreter for a prolog-style language in Python). Software development is not simply about solving today's business problems, it's about exploring the potential of computer science to solve truely unique problems and accomplish something spectacular.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37396">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/61">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/HB162" target="_blank"><img src="./45(50).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/HB162" target="_blank" class="new-user">HB<wbr>​162</a>
+        </h3>
+        <p><span class="mention">@KB</span></p>
+
+<p>LOL! Well mark me down as one more "adaquate" programmer. It's fun -- but I get the burnout thing when I get home so I'd rather get away from the keyboard.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37397">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/62">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank"><img src="./45(27).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank" class="new-user">Jeremy</a>
+        </h3>
+        <p><span class="mention">@KG</span></p>
+
+<p>I started off programming by writing little scripting languages, and I'm sure a lot of other did too.  To be a good programmer doesn't require a low-level knowledge of the platform, or even a high level knowledge.  Any amount of problem solving is practice.  Unless I'm interested in 3d modeling or OCR, why would I try to do it.  My "truly unique problems" I deal with every day are usually accounting based.  All the physics knowledge in the world won't help you manage financial software.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37398">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/63">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/KG14" target="_blank"><img src="./45(51).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/KG14" target="_blank" class="new-user">KG<wbr>​14</a>
+        </h3>
+        <p><span class="mention">@HB</span></p>
+
+<p>I know how you feel. Since I graduated college and started my full-time job, I've been burned out most of the time as well. I really wish I had another summer break so I'd have the time to explore another cool idea or learn a new technology.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37399">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/64">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Rob" target="_blank"><img src="./45(52).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Rob" target="_blank" class="new-user">Rob</a>
+        </h3>
+        <p>Why does it always have to be about programming and writing code? Learning a new programming language isn't a good idea because it expands your skill set, its a good idea because learning a new language ("new", as in, different than what you're used to) changes the way you look at problems. It makes you a better thinker and problem solver, which indirectly makes you a better programmer.</p>
+
+<p>Because of that, the activity you use as practice doesn't have to be related to programming or writing code at all. Find something that is both fun and mentally challenging and do that. Some people use programming as practice because they're interested in it. If you feel burnt out, pick something else.</p>
+
+<p>It almost seems silly to use programming for practice. If you've done exercise <span class="hashtag">#7</span> from the first list (review a stack of resumes), you'll realize that programmers tend to have unrealistic views of their own abilities. Trying to pick a programming project that is "just beyond one's competence" is a tough skill itself. Its easy for a cocky programmer to say "Oh I know how to do that", and miss out on a lot of learning opportunities. If you pick another activity (musical instrument, board game, kite flying, etc.) its a lot harder to be cocky and a lot easier to analyze your knowledge and success.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37400">
+      <a title="June 23, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/65">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/N1122" target="_blank"><img src="./45(53).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/N1122" target="_blank" class="new-user">N<wbr>​1122</a>
+        </h3>
+        <p>Seconded HB.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37401">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/66">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Kibbee" target="_blank"><img src="./45(54).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Kibbee" target="_blank" class="new-user">Kibbee</a>
+        </h3>
+        <p>As for those who don't think that you can get good doing your 9-5 coding, I think that a lot of it has to do with what you do during that 9-5.  That's 8 hours a day of coding.  Certainly more time than many althletes spend working out.  If you don't do anything challenging at your job, then you probably won't get any better.  However, if your job is challenging, and if you spend even as little as 4 hours a day doing challenging stuff, then you will be able to increase your abilities, without spending time outside of work.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37402">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/67">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/shami" target="_blank"><img src="./45(17).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/shami" target="_blank" class="new-user">shami</a>
+        </h3>
+        <p>Nice Article, many of us don't take intention in these type of activities. we can do these activities in a fun way and improving our skills continuously.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37403">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/68">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/earwicker_ch" target="_blank"><img src="./45(55).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/earwicker_ch" target="_blank" class="new-user">earwicker_<wbr>​ch</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/anvar" target="_blank">@Anvar</a></p>
+
+<p>My comments weren't to Jeff, whose ideas about practice were all perfectly legit (and which, as Kibbee points out, can be reasonably accomplished during business hours in most cases). I was really addressing those who, like ak47, make statements like "a guy who codes 9-to-5, then goes home and doesn't wanna hear/think about coding at all until 9am tomorrow does not get any better." </p>
+
+<p>That's a load of horse-hooey.</p>
+
+<p>To the extent that Kenneth may have the "factory worker" attitude, then that's clearly not beneficial to Kenneth's well-being or growth or happiness in ANY way. I didn't read his comments that way (maybe I just didn't want to). What I did read were responses that equated his lack of desire (to focus his non-work hours around programming) with certain and unavoidable technological mediocrity. And that assertion just isn't borne out in the real world.</p>
+
+<p>As far as my comments about human psychology, an understanding thereof is fundamental to software design. I don't know if you know the book "Why Software Sucks..." by David Platt, but he discusses at length why the Jolt-Cola crazed Geeks just can NOT write non-sucky software unless they have a great understanding of how NORMAL people think about and use that software.</p>
+
+<p>Alan Cooper (the epitome of User Interface and Interaction Gurus) constantly makes the same points.</p>
+
+<p>The idea that some pimple-faced geek sitting in front of her computer 24/7 has even the VAGUEST clue about what a normal user needs, wants, or will use is patently absurd. And that geek will never be a top-notch developer without that insight. </p>
+
+<p>That's all I'm sayin', yo.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37404">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/69">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Shatlin1" target="_blank"><img src="./45(56).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Shatlin1" target="_blank" class="new-user">Shatlin<wbr>​1</a>
+        </h3>
+        <p>Excellent Post Jeff.Most of us get stuck in our comfort zone and never realise the way to go higher.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37405">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/70">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank"><img src="./45(57).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank" class="new-user">Bug<wbr>​Free</a>
+        </h3>
+        <p>@ Ivan</p>
+
+<p>You must have misunderstood my post. Writing code and writing a story have an important similarity: they both have to work, each in its own way. Code may get something done, but story also has to get something done: tell a story and create an imaginary world in the mind of the reader hopefully with some meaning. For code to get anything done, it has to have meaning, it cannot be a crafted jumble of statements which poke around memory and call it "done!."</p>
+
+<p>For many, writing code is a job and rightfully so. Now that you invoked Tolstoy, think about differences of such classics and Schund produced by, say, Harlequin books which are measured in length, have mechanical plot, no story, bunch of cowboys and hot gals, all wrapped up before page 150 (or whatever page they always end at). Incidentally, a lot of programmers think of programming as something mechanical, patternable, code-reviewable. Post. Submit. Catch. Very good. Until you start writing full-blown applications, the real Tolstoy if you will.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37406">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/71">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank"><img src="./45(58).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank" class="new-user">Ivan</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/bugfree" target="_blank">@BugFree</a></p>
+
+<p>Granted, a story must get things done and that is to tell itself effectively [ purposefully using recursive language at the risk of loosing clarity ]. And, of course, a set of statements to be useful ,or at least of the correct form, must build out to a meaningful parse tree . I agree with you. </p>
+
+<p>What threw me off was :<br>"Jeff, writing code is about writing code. Just as writing a story is about writing a story, not about people who are going to buy it (or even read it)." I applied the second clause of the second sentence to writing code not writing a story. And so, I disagreed. Writing code has much to do with who reads it and unless, you code for the fun of it [ like me ], then it has a good bit to do with who buys it. Would you not say the same?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37407">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/72">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Iain" target="_blank"><img src="./45(59).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Iain" target="_blank" class="new-user">Iain</a>
+        </h3>
+        <p>This is probably the most useful part:</p>
+
+<ol><li>Learn different programming languages. Pick languages that have alternate worldviews and programming models unlike what you're used to.</li></ol>
+
+<p>I do ActionScript. People rip on ActionScript because they don't know anything about it and assume it's a silly little scripting language. It has it's problems, but no one knows them better than me, because I use it all day. I'm learning C# to get exposure to some different styles, which helps me a lot when I come back to my day job.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37408">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/73">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/RobertR" target="_blank"><img src="./45(60).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/RobertR" target="_blank" class="new-user">RobertR</a>
+        </h3>
+        <p>I tend to study in areas related to programming which would only be outside my job description in a large organization. For example, web application security, database design, web graphics design, accounting, networking, etc. A narrow focus on programming seems foolish given the broad range of skills business expects you to have in the real world. A small business will even have their programmers do marketing if it involves SEO.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37409">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/74">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/ak47" target="_blank"><img src="./45(41).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/ak47" target="_blank" class="new-user">ak<wbr>​47</a>
+        </h3>
+        <p>good programmer is probably defined by knowledge and ability to use this knowledge in a creative way. "good programmer" does not take a book on programming patterns as a dogmatic icon and does not bend every problem to fit into one of described patterns. he merely sees it as an inspiration which teaches him how to be able to express his own patterns that exactly tits the situation.</p>
+
+<p>he doesn't take a set of pre-made lego bricks and build a crude building out of them, he long aglo learned how to shape his own blocks that fit together effortlessly.</p>
+
+<p>his code then does not look as a shapeless blob of text, he learned to express his intent in a clear way, so that reading his code is probably easy  worthwhile (ie. you learn new ways of doing stuff while grokking through his code).</p>
+
+<p>but it probably boils down to one thing : he bends his code to the occasion, not the occasion to any pre-existing code/knowledge/whatever.</p>
+
+<p>of course, we are talking ideals and probably the more you travel on the way from mediocre towards brilliant, the more you realize you are only uncovering new areas yet unexplored. you cannot go too far in trying to learn something new, there is no point when you become total uber-programmer. only when someone thinks he is the "good programmer", it shows he hadn't learned enough to realize what he doesn't know.</p>
+
+<p>there can be many ways one can walk towards the ultimate goal, and one size does not fit all, so IMO good programmer cannot be defined by whether he does kata, learned 10 languages before ending puberty *1), etc. he is defined by neverending drive towards improvement and his ability to analyze new problems/problem domains and provide fitting solutions. good programmer is always evolving, never statically repeating himself. his right definition is as elusive as the perfection he strives for.</p>
+
+<p>*1) No, not even getting laid for the first time on your 26th birthday qualifies you <img src="./wink.png" title=":wink:" class="emoji" alt=":wink:">))</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37410">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/75">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank"><img src="./45(57).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank" class="new-user">Bug<wbr>​Free</a>
+        </h3>
+        <p>Jeff, writing code is about writing code. Just as writing a story is about writing a story, not about people who are going to buy it (or even read it). The only skill that will be relevant in 100 years from my resume is, erm, writing code.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37411">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/76">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/kenneth4" target="_blank"><img src="./45(61).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/kenneth4" target="_blank" class="new-user">kenneth<wbr>​4</a>
+        </h3>
+        <p>Interestingly, this was yesterday from my Zen Calendar:</p>
+
+<p>An American seeker: "If you follow any way, you will never get there; and if you do not follow any way, you will never get there. So one faces a dilemma."<br>Hisamatsu: "Let the dilemma be your way!"</p>
+
+<p>ZEN MONDO</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37412">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/77">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Promit" target="_blank"><img src="./45(62).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Promit" target="_blank" class="new-user">Promit</a>
+        </h3>
+        <p>Now that's a solid codinghorror entry <img src="./smiley.png" title=":smiley:" class="emoji" alt=":smiley:"> And every post should have a random, seemingly unrelated (when not in context) image!</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37414">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/79">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank"><img src="./45(27).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeremy" target="_blank" class="new-user">Jeremy</a>
+        </h3>
+        <p>HB)</p>
+
+<p>I think that it is infact true that a "good programmer" has to understand the underlying mechanics of the building blocks they are using. In the banking example.. using the pieces that are available in the framework are all well and good, but they have to understand what are the ramifications for using X.</p>
+
+<p>It doesn't mean that if you don't know how things work under the hood that you are a horrible programmer. I myself entered programming from asp/php. So I had no idea how things really worked under the surface. Since then I have delved down to C++ and assembly. I can say they knowledge of how things really work under the CLR (I program mostly in C#) has saved me countless hours of troubleshooting. For example I was having problems with a encryption routine that someone had built to pass data in a url from an asp.net server to another classic asp server where the string was being truncated. I saw that it created 'x0h' on certain values. So knowing under the surface that a string in memory is null terminated, I realized the IIS server was reading it as the end of the string even though it was not and was truncating it before it got passed to either asp or the .Net runtime.</p>
+
+<p>So I know this is actually a simple example, had I not known how strings worked in memory, I likely would have spent much more time trying to pinpoint this intermittent problem.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37415">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/80">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank"><img src="./45(63).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank" class="new-user">Anvar</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/chris" target="_blank">@chris</a> lively</p>
+
+<p>According to the dictionary, the first definition of practice is:<br>"1. Frequently repeated or customary action; habitual performance; a succession of acts of a similar kind;" which perfectly fit the idea of kata. Though, I understand that one performs a kata (a pattern of movements) over and over to become better at performing that particular kata, but there are implicit new skills, fluidity of movements and so forth that could be gained.</p>
+
+<p><a class="mention" href="https://discourse.codinghorror.com/users/kenneth" target="_blank">@kenneth</a></p>
+
+<p>I can understand your point of view as a code-producing-factory-worker with dreams of one day having some sort of a managerial job (unless you already do). After a hard day's work of churning meaningless symbols to working code, one does need to rest. And, there are other things than coding to tend to. I understand. However, as a programmer (professional or not), who sees programming as his/her craft, I see why you have attracted so many people's attention.</p>
+
+<p>And, I must add that chess is a great idea.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37416">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/81">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank"><img src="./45(21).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jeff_Davis" target="_blank" class="new-user">Jeff_<wbr>​<wbr>​Davis</a>
+        </h3>
+        <p>So, who wants to start the coding horror chess club?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37417">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/82">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank"><img src="./45(63).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank" class="new-user">Anvar</a>
+        </h3>
+        <p>Jeff,<br>I would be interested. To say what everyone says, "I am not the a very good player," but I enjoy the hell out of the game.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37418">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/83">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank"><img src="./45(58).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank" class="new-user">Ivan</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/bugfree" target="_blank">@BugFree</a></p>
+
+<p>Why is everyone so confused about this. Writing code is NOT about writing code only as writing a story is about writing a story. CODING IS NOT ART, BUT A CRAFT ( well, as a programmer I have seen pieces of code that have emotionally moved me and inspired me, but still would not compare coding to art ). One writes code to accomplish something. The lines of code printed on the screen are not inherently valuable a novel written by Tolstoy is inherently valuable. All that it is and does is contained in/referenced by the printed symbols on the pages.</p>
+
+<p><a class="mention" href="https://discourse.codinghorror.com/users/jeff" target="_blank">@Jeff</a>, idea for future blog:</p>
+
+<p>Should computer science students be forced to take a philosophy of art class?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37419">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/84">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/earwicker_ch1" target="_blank"><img src="./45(64).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/earwicker_ch1" target="_blank" class="new-user">earwicker_<wbr>​ch<wbr>​1</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/kenneth" target="_blank">@Kenneth</a> and his detractors</p>
+
+<p>I'm going to go out on a limb and say that the programmer who goes home every day and works on her latest open source/bleeding edge pet project is often a far WORSE programmer than the guy whose extra-technical life is extremely rich and varied. The simple fact of the matter is that writing great software is only partially about writing great code. At least as important (and often more so than the code) are abilities such as these (which can NOT be practiced by writing code):</p>
+
+<p>--problem solving skills (in the business domain): can you easily analyze and understand the issues involved in breaking wildly disparate, real-world, utterly non-technical scenarios down into their component parts? If not, you're a crappy programmer . . . no matter how great/deep your knowledge of code, patterns, tools, etc.</p>
+
+<p>--human psychology: do you understand what motivates users (including yourself) and how general human psychology informs the solution to your domain problems and the needs of your software (User Interaction, Features, what have you). This is also vital to being a positively contributing member to a well-oiled and smoothly-running team. Practice coding all you want, if you don't have a full life outside of what you do in front of your computer, you're a crappy programmer</p>
+
+<p>--creativity: it is widely argued whether this can be practiced/learned or not, but exercising one's creative abilities is crucial to the creation of quality software. If you are a one-dimensional person, whose only creative outlet is technology, I assert that you're probably a crappy programmer.</p>
+
+<p>The bottom line is that the greatest programmers have a broad and deep pool of non-technical experience and interests, and that one-dimensional, 16-hour-per-day Hackoids are more likely to create unimaginative solutions than those who realize that the technical part of their experience and knowledge is only a part of the picture, no matter how important that part may be.</p>
+
+<p>Go Kenneth!</p>
+
+<p>---earwicker[ch]</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37420">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/85">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Santosh1" target="_blank"><img src="./45(65).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Santosh1" target="_blank" class="new-user">Santosh<wbr>​1</a>
+        </h3>
+        <p>Hi Jeff,</p>
+
+<p>I am reading your blog since last 3 month. <br>I liked it very much  keep waiting for your next post.</p>
+
+<p>As you mentions in this post that "Write a blog"  "participate in OpenSource project" would be your code kata. </p>
+
+<p>What is the starting poit in your opinion for any programmer to start blogging  contributing to open source project</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37421">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/86">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank"><img src="./45(63).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Anvar" target="_blank" class="new-user">Anvar</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/earwicker" target="_blank">@earwicker</a>[ch]</p>
+
+<p>As one of Kenneth's detractors, I acknowledge what you put forth. We thrive on diversity. Solving one kind of problems really well does not make us good problem solvers. Creativity, must be exercised. I agree. I believe it is always at work no matter what we do ( of course some are more creative than others).</p>
+
+<p>However, the talk about understanding others and my own motivations ...I don't know. We leave that one alone. To say you understand your own motivations is the same as saying you can chew on your own teeth.</p>
+
+<p>I see the need for diverse stimuli. I don't think anyone reproached Kenneth for liking/wanting to spend time with his family. I don't think anyone was really promoting the idea of 16-hours of coding per day either. I understood the blog to be promoting the idea of recognizing ones limits/weak points and pushing to become better by working on those week points (not 16-hours a day, just working continuously). While, Kenneth was emitting the attitude of a factory worker who is drained not necessarily energized by his work. And you said "Go Kenneth!" as though he is a better problem solver, as though he has a better understanding of human psychology, as though he actually does have more than one creative outlet. He maybe all those things, but his attitude is not that of a curious programmer that is all.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37422">
+      <a title="June 24, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/87">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/ak47" target="_blank"><img src="./45(41).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/ak47" target="_blank" class="new-user">ak<wbr>​47</a>
+        </h3>
+        <p>i haven't got the impression somebody was saying that one has only to code, in my case i (maybe wrongly) tried to say that a person who does not find the act of coding pleasing will not be as good.</p>
+
+<p>it just seems logical to me that when someone enjoys doing something, he does it even in his free time ...</p>
+
+<p>a guy who codes 9-to-5, then goes home and doesn't wanna hear/think about coding at all until 9am tomorrow does not get any better. IMO he will deteriorate as he cleanly cannot enjoy even his work, so he will in the end succeed in putting something together (as a seasoned, proffesional developer ...), but without the joy, without truly wanting to do his best it will miss <em>at least</em> the spark of brilliance which could have made it shine.</p>
+
+<p>in the worst-case scenario it will miss the second look he couldn't have been bothered to give it, because he was so burned out. yeah, it comes from time to time, but when the joy is gone, the effort one has to invest to dish out "good code" is bigger, meaning he is burnt out sooner meaning less joy ...</p>
+
+<p>so at least the programmer who goes home to play with his pet project/whatever has his zenith still in front of him.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37423">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/88">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank"><img src="./36371_1.png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/codinghorror" target="_blank" class="staff">codinghorror</a>
+        </h3>
+        <blockquote><p>However, if your job is challenging,</p></blockquote>
+
+<p>Exactly! And if it isn't.. quit! Unless you plan to be there until you die, in which case I suppose it doesn't matter.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37424">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/89">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/ak47" target="_blank"><img src="./45(41).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/ak47" target="_blank" class="new-user">ak<wbr>​47</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/earwicker" target="_blank">@earwicker</a></p>
+
+<p>maybe you shouldn't pay so much attention to the hours and look at it like this: if what you do doesn't interest you as much that you'd be willing invest some time when you don't have to, then you are clearly at disadvantage compared to the guy who does.</p>
+
+<p>yeah, you are mr. big pro dev, your uberknowledge is to be feared, and you may even learn a few things during your insert timeslice a day.</p>
+
+<p>but given enough time, a low starting, rapidly growing function will outgrow the high starting slowly growing.</p>
+
+<p>take in account the fact that some facts change pretty quickly in IT, and hey, is the first guy still learning something, or just "loosing it" more slowly ? <img src="./wink.png" title=":wink:" class="emoji" alt=":wink:"></p>
+
+<p>or in yet another entirely different way:</p>
+
+<p>are you saying your wife enjoys sex so much she reserves it one hour a week a doesn't want to talk about it outside of the pre-set window ?</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37425">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/90">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Vadim" target="_blank"><img src="./45(66).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Vadim" target="_blank" class="new-user">Vadim</a>
+        </h3>
+        <p>I have been feeling a bit stagnant and thinking much about this matter lately. Thanks for the ideas.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37426">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/91">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Jim_Cooper" target="_blank"><img src="./45(67).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Jim_Cooper" target="_blank" class="new-user">Jim_<wbr>​<wbr>​Cooper</a>
+        </h3>
+        <p>"List all your relevant skills, then note the ones that will still be needed in 100 years."</p>
+
+<p>Well, obviously, at the top of that list is going to be the skill of knowing what will be needed in 100 years. But I can't see how it's at all relevant. Exactly how long is that bloke planning on living, let alone working? <img src="./slight_smile.png" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+<p>And I also think using kata (which is both the singular and plural form, BTW) as a metaphor is not quite what you're getting at. In most systems, performing a kata means doing the same thing every time with limited opportunity for learning something new. There are multiple interpretations of given movements, but a strictly limited (small) number of them. And that's not at all what you're suggesting doing.</p>
+
+<p>As it happens, the original applications of kata movements have been pretty much lost in many martial arts, most notably karate. What almost everyone is taught is actually rubbish, when looked at from a practical standpoint. So from that point of view it's an even worse metaphor <img src="./slight_smile.png" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37427">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/92">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/John_Pirie" target="_blank"><img src="./45(68).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/John_Pirie" target="_blank" class="new-user">John_<wbr>​<wbr>​Pirie</a>
+        </h3>
+        <p>"6.  Learn different programming languages.  Pick languages that have alternate worldviews and programming models unlike what you're used to."</p>
+
+<p>This is easily, far and away, the shortest path to becoming a better all-around programmer.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37428">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/93">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/prairiedog2k" target="_blank"><img src="./45(69).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/prairiedog2k" target="_blank" class="new-user">prairiedog<wbr>​2k</a>
+        </h3>
+        <p>from <br><a href="http://www.computerworld.com.au/index.php/id;408408016;fp;16;fpid;1;pf;1" rel="nofollow" target="_blank"></a><a href="http://www.computerworld.com.au/index.php/id;408408016;fp;16;fpid;1;pf;1" rel="nofollow" target="_blank">http://www.computerworld.com.au/index.php/id;408408016;fp;16;fpid;1;pf;1</a></p>
+
+<p>ComputerWorld: Do you have any advice for up-and-coming programmers?</p>
+
+<p>Bjarne Strostroup: Know the foundations of computer science: algorithms, machine architectures, data structures, etc. Don't just blindly copy techniques from application to application. Know what you are doing, that it works, and why it works. Don't think you know what the industry will be in five years time or what you'll be doing then, so gather a portfolio of general and useful skills. Try to write better, more principled code. Work to make "programming" more of a professional activity and less of a low-level "hacking" activity (programming is also a craft, but not just a craft). Learn from the classics in the field and the better advanced textbooks; don't be satisfied with the easily digested "how to" guides and online documentation - it's shallow.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37429">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/94">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Luis_P2" target="_blank"><img src="./45(70).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Luis_P2" target="_blank" class="new-user">Luis_<wbr>​P<wbr>​2</a>
+        </h3>
+        <p>As always, with these questions, it's really all a matter of choice between specialisation and balance. </p>
+
+<p>You should go practice your kata when you're young and hopeful, and you believe your efforts will be recognized. Perhaps that will lead you nowhere, but if it's a game to you, then by all means, grow. Maybe you'll make it work for yourself, if that's what you really want out of life.</p>
+
+<p>To achieve the most, it's important to find a stimulating environment. A place where you can share ideas, build great stuff, experiment even. This is a rare find. As most professional working spaces are mind-numbing substandard shops, you rapidly meet a divide: 40h+/week, you spend delivering code; the rest of the time, you're on your own. This makes for a rather taxing, unsatisfying, profession! Since writing a compiler will only get you further away from friends, family, art, mindfulness, exercise, finances and etc., you may find more sanity and balance in other pursuits.</p>
+
+<p>What you're able and willing to grow into is tightly linked to your way of life. Since the question here is about cultivating your abilities beyond mere job requirements, I think it's vital to consider the freedom factor. Nobody should be expected to spend much of his free time compensating for a mediocre job. I see people placing a lot of expectations on themselves and others. It's so easy to feel like a noob and guilt for more, but that's unhealthy. </p>
+
+<p>We should accept our failings and enjoy our hobbies to grow our own ways. And perhaps we should all leave our shitty jobs. As that other guy said above, 8h a day is a lot work to put into a single thing.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37430">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/95">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank"><img src="./45(57).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/BugFree" target="_blank" class="new-user">Bug<wbr>​Free</a>
+        </h3>
+        <p>@ Ivan</p>
+
+<p>Currently, the gold standard in software comes from Apple, not Microsoft. It pains me somewhat to even write that out loud (because I earn my keep on the Microsoft platform but that may change). </p>
+
+<p>Apple's software+hardware dudes apparently can change a hardware platform (from PowerPC to Intel) without a hitch, produce software with a high degree of polish and with an intimate (close?) releationship with underlying hardware (which also happens to be the absolute top notch) - and package it up so that they are flying off the shelves. Just imagine if Microsoft had to "switch" to a non-intel hardware platform or, gasp, to a different set of APIs. On the other side of the fence, we have this disaster called Vista (disaster primarily because of incompatible hardware setups it runs on), overheating xboxes, clunky Windows Mobile devices (with a task manager as an "option" for users to "get things done"), memory-guzzling applications, ... the list goes on - and all that was built on top of "best practices." Not surprisingly, it takes more than a mechanical bullet list of items, GOF book and an SDK to get it right. And ship it soon :), like today.</p>
+
+<p>As it happens, my long-held view is that a software developer must be close to OS, hardware, programming language and the Big Picture. </p>
+
+<p>Fluency in several OSes is just as important as fluency in several programming languages, otherwise who would not know who is stealing from whom and where the best ideas are. As long as things ship (and sell), it does not really matter. What matters is that software works and does not frustrate users.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37431">
+      <a title="June 25, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/96">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank"><img src="./45(58).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Ivan" target="_blank" class="new-user">Ivan</a>
+        </h3>
+        <p><a class="mention" href="https://discourse.codinghorror.com/users/bugfree" target="_blank">@BugFree</a></p>
+
+<p>I agree with you about Apple products being superior. And, yes, Vista was/is a disaster. I reinstalled XP pro after two weeks of trying Vista. I have not missed it. I also agree with you that one must be fluent in different programming languages and different OS(s). I guess it is this very mix many tools and many ways of approaching one's work that one begins to build a bigger a picture.</p>
+
+<p>However, it always matters as to who buys the software. Apple, dominating 10% of the market, sells to its consumer cult (of a certain socio-economic background among other attributes).</p>
+
+<p>Despite all of this, I see that of which you speak.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37432">
+      <a title="June 26, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/97">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Roger" target="_blank"><img src="./45(71).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Roger" target="_blank" class="new-user">Roger</a>
+        </h3>
+        <p>GREAT Article Man!! Strictly practicing all the points you mentioned will definitely land me in Google one day...(I Hope)</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37433">
+      <a title="June 26, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/98">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/John_DSouza" target="_blank"><img src="./45(72).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/John_DSouza" target="_blank" class="new-user">John_<wbr>​D<wbr>​Souza</a>
+        </h3>
+        <p>As usual great post Jeff! Thanks. <br>Was just pondering what was needed for me at this stage since I've already 'learnt' the language.. guess, this is what I was looking for.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37434">
+      <a title="June 26, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/99">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/DavidC" target="_blank"><img src="./45(73).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/DavidC" target="_blank" class="new-user">DavidC</a>
+        </h3>
+        <p>Excellent. First time I've commented on your blog, I think, though I've been reading every post for the past few months.</p>
+
+<p>As a student entering college at the University of Chicago next month to study physics (and maybe minor in CS), this post is extremely interesting, and not least because this is partly how I was already trying to think of my education. Glad to be validated by a programmer I respect.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37435">
+      <a title="June 26, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/100">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Silvercode" target="_blank"><img src="./45(74).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Silvercode" target="_blank" class="new-user">Silvercode</a>
+        </h3>
+        <p>Many people are judged by their words.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37436">
+      <a title="June 26, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/101">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Silvercode" target="_blank"><img src="./45(74).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Silvercode" target="_blank" class="new-user">Silvercode</a>
+        </h3>
+        <p>When you have something to lose, you are performing worse because of the fear of losing.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37437">
+      <a title="June 27, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/102">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Eileen" target="_blank"><img src="./45(75).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Eileen" target="_blank" class="new-user">Eileen</a>
+        </h3>
+        <p>After reading this article and Steve Yegge's, I now understand why I do poorly on some things, including programming, and better on others. <br>When I care about an activity, I naturally look for and implement better methods of practice and to integrate ideas from other genres. For example, my martial arts plateaued until I studying other forms of movement and started thinking about and improving how I practiced.</p>
+
+<p>On the other end of the spectrum, I never figured out how to learn in college. As a high school student my study habits were sufficient to get straight A's and top scores on AP exams and SATs. Then I went to a top science and engineering university where they were no longer sufficient. It never occurred to me to analyze my study habits (i.e. my practice). Now I realize it may have been because I didn't really care about the subjects and simply didn't want to bother.</p>
+
+<p>Programming, unfortunately, falls into the latter category. I do it for money. If I practiced outside of work and improved, I could take get more done at work and take on potential lucrative projects, like implementing ideas I have for startups. Instead, I spend my time on other activities that I care about more and keep me in good physical shape, but may never get to the point where they can become a profession.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37438">
+      <a title="June 28, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/103">Jun '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/Andy_Brice" target="_blank"><img src="./45(76).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/Andy_Brice" target="_blank" class="new-user">Andy_<wbr>​<wbr>​Brice</a>
+        </h3>
+        <p>As someone who has done martial arts for many years I think the analogy with kata is a poor one. Kata is about repeating the same rigidly codified physical movements again and again and again. I don't see how that relates usefully to learning new programming skills.</p>
+
+      </div>
+    </article>
+    <article class="post" id="post-37439">
+      <a title="July  1, 2008 12:00am" class="post-date" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/104">Jul '08</a>
+
+      <div class="author">
+        <a href="https://discourse.codinghorror.com/users/IanT" target="_blank"><img src="./45(77).png" alt=""></a>
+      </div>
+      <div class="cooked">
+        <h3 class="username">
+          <a href="https://discourse.codinghorror.com/users/IanT" target="_blank" class="new-user">IanT</a>
+        </h3>
+        <p>On June 14th your don't go dark entry implored developers to share their code at the first opportunity <br>Don't go dark. Don't be that guy in the room. Hiding your code until it's done may feel safer, but it isn't.</p>
+
+<p>In a response to a comment in this entry you reply<br>I'm probably going to follow the reddit.com model and open source the code once the site is firmly established.</p>
+
+<p>isn't there something of a contradiction there?</p>
+
+      </div>
+    </article>
+
+    <footer class="clearfix">
+      <a target="_blank" href="https://discourse.codinghorror.com/"><img class="logo" src="./d-logo-sketch.png" alt="D logo sketch"></a>
+      <a class="button" target="_blank" href="https://discourse.codinghorror.com/t/the-ultimate-code-kata/302/104">Continue Discussion</a>
+        <span class="replies">5 more replies</span>
+    </footer>
+    <div class="clearfix"></div>
+
+
+  
+
+</body></html>
