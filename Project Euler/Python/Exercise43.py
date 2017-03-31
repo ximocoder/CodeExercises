@@ -19,6 +19,8 @@
 #
 #   Find the sum of all 0 to 9 pandigital numbers with this property.
 
+number = 1406357289
+
 406
 063
 635
