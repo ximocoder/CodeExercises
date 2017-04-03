@@ -9,3 +9,6 @@ https://blog.codinghorror.com/the-ultimate-code-kata/
 https://github.com/emilybache/Racing-Car-Katas
 
 http://www.codekatas.org/casts/tagged/python
+
+
+https://www.udemy.com/the-python-mega-course/
