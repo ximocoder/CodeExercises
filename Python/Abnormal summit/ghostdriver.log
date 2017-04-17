@@ -1,0 +1,12 @@
+[INFO  - 2017-04-17T10:50:00.727Z] GhostDriver - Main - running on port 61925
+[INFO  - 2017-04-17T10:50:01.800Z] Session [9b9e2c00-235b-11e7-b433-b3db724e6a29] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-17T10:50:01.800Z] Session [9b9e2c00-235b-11e7-b433-b3db724e6a29] - page.customHeaders:  - {}
+[INFO  - 2017-04-17T10:50:01.800Z] Session [9b9e2c00-235b-11e7-b433-b3db724e6a29] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-17T10:50:01.801Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9b9e2c00-235b-11e7-b433-b3db724e6a29
+[ERROR - 2017-04-17T10:50:05.180Z] Session [9b9e2c00-235b-11e7-b433-b3db724e6a29] - page.onError - msg: TypeError: null is not an object (evaluating 'b.getElementsByClassName')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-04-17T10:50:05.180Z] Session [9b9e2c00-235b-11e7-b433-b3db724e6a29] - page.onError - stack:
+  (anonymous function) (http://kshow123.net/show/abnormal-summit/episode-144.html:85)
+
+  phantomjs://platform/console++.js:263 in error
