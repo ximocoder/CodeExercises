@@ -78,6 +78,7 @@ def checkURL(str):
 print("Beginning the videos download...")
 
 url = 'http://kshow123.net/show/abnormal-summit/'
+url2 = 'http://drama3s.com/watch/abnormal-summit-episode-1-693_9556.html'
 
 r = requests.get(url)
 data = r.text
