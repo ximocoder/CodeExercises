@@ -3,7 +3,8 @@ import requests
 
 print("Begginning the download...")
 
-page = requests.get('http://kshow123.net/show/abnormal-summit/')
+page = requests.get('http://drama3s.com/watch/abnormal-summit-episode-1-693_9556.html')
+
 try:
     tree = html.fromstring(page.content)
 except:
