@@ -1,3 +1,6 @@
 C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\obj\Debug\ConsoleApplication1.exe
 C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\obj\Debug\ConsoleApplication1.pdb
+C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\bin\Debug\ConsoleApplication1.exe
+C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\bin\Debug\ConsoleApplication1.pdb
+C:\Users\ximva\Documents\Code\CodeExercises\RetosCSharpForocoches\RetoA\obj\Debug\RetosCSharpForocoches.csprojResolveAssemblyReference.cache
